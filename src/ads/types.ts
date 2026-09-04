@@ -7,7 +7,8 @@ export type AdPlacement =
   | 'workspace-after-faq'
   | 'tool-after-faq'
   | 'tool-before-footer'
-  | 'legal-after-content';
+  | 'legal-after-content'
+  | 'search-between-results';
 
 export interface AdSlotConfig {
   id: string;

@@ -1110,7 +1110,5961 @@ export const TOOLS: ToolDefinition[] = [
         { question: 'Can I add my own flashcard questions?', answer: 'Yes, study flashcards run locally in your session.' }
       ]
     }
-  }
+  },
+
+  // Automatically Synchronized Tools for Full Workspace Coverage
+  {
+    "id": "barcode-gen",
+    "slug": "barcode-gen",
+    "name": "Barcode Gen",
+    "shortDescription": "Professional, browser-based Barcode Gen utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "01-qr-barcode",
+    "route": "/tool/barcode-gen",
+    "iconName": "QrCode",
+    "category": "QR Generation",
+    "tags": [
+      "barcode gen",
+      "qr & barcode tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "barcode gen",
+      "barcode gen online",
+      "free barcode gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Barcode Gen — Free Online Tool | ToolNova",
+      "h1": "Barcode Gen",
+      "metaDescription": "Use the Barcode Gen on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Barcode Gen."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "bulk-qr-gen",
+    "slug": "bulk-qr-gen",
+    "name": "Bulk Qr Gen",
+    "shortDescription": "Professional, browser-based Bulk Qr Gen utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "01-qr-barcode",
+    "route": "/tool/bulk-qr-gen",
+    "iconName": "QrCode",
+    "category": "QR Generation",
+    "tags": [
+      "bulk qr gen",
+      "qr & barcode tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "bulk qr gen",
+      "bulk qr gen online",
+      "free bulk qr gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Bulk Qr Gen — Free Online Tool | ToolNova",
+      "h1": "Bulk Qr Gen",
+      "metaDescription": "Use the Bulk Qr Gen on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Bulk Qr Gen."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "digital-card-gen",
+    "slug": "digital-card-gen",
+    "name": "Digital Card Gen",
+    "shortDescription": "Professional, browser-based Digital Card Gen utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "02-visiting-card",
+    "route": "/tool/digital-card-gen",
+    "iconName": "CreditCard",
+    "category": "Card Design",
+    "tags": [
+      "digital card gen",
+      "visiting card & business card tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "digital card gen",
+      "digital card gen online",
+      "free digital card gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Digital Card Gen — Free Online Tool | ToolNova",
+      "h1": "Digital Card Gen",
+      "metaDescription": "Use the Digital Card Gen on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Digital Card Gen."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "card-mockup-preview",
+    "slug": "card-mockup-preview",
+    "name": "Card Mockup Preview",
+    "shortDescription": "Professional, browser-based Card Mockup Preview utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "02-visiting-card",
+    "route": "/tool/card-mockup-preview",
+    "iconName": "CreditCard",
+    "category": "Card Design",
+    "tags": [
+      "card mockup preview",
+      "visiting card & business card tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "card mockup preview",
+      "card mockup preview online",
+      "free card mockup preview"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Card Mockup Preview — Free Online Tool | ToolNova",
+      "h1": "Card Mockup Preview",
+      "metaDescription": "Use the Card Mockup Preview on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Card Mockup Preview."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "image-cropper",
+    "slug": "image-cropper",
+    "name": "Image Cropper",
+    "shortDescription": "Professional, browser-based Image Cropper utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "03-image-editing",
+    "route": "/tool/image-cropper",
+    "iconName": "Sliders",
+    "category": "Transform",
+    "tags": [
+      "image cropper",
+      "image editing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "image cropper",
+      "image cropper online",
+      "free image cropper"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Image Cropper — Free Online Tool | ToolNova",
+      "h1": "Image Cropper",
+      "metaDescription": "Use the Image Cropper on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Image Cropper."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "image-resizer",
+    "slug": "image-resizer",
+    "name": "Image Resizer",
+    "shortDescription": "Professional, browser-based Image Resizer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "03-image-editing",
+    "route": "/tool/image-resizer",
+    "iconName": "Sliders",
+    "category": "Transform",
+    "tags": [
+      "image resizer",
+      "image editing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "image resizer",
+      "image resizer online",
+      "free image resizer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Image Resizer — Free Online Tool | ToolNova",
+      "h1": "Image Resizer",
+      "metaDescription": "Use the Image Resizer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Image Resizer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "image-watermarker",
+    "slug": "image-watermarker",
+    "name": "Image Watermarker",
+    "shortDescription": "Professional, browser-based Image Watermarker utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "03-image-editing",
+    "route": "/tool/image-watermarker",
+    "iconName": "Sliders",
+    "category": "Transform",
+    "tags": [
+      "image watermarker",
+      "image editing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "image watermarker",
+      "image watermarker online",
+      "free image watermarker"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Image Watermarker — Free Online Tool | ToolNova",
+      "h1": "Image Watermarker",
+      "metaDescription": "Use the Image Watermarker on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Image Watermarker."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "photo-filters",
+    "slug": "photo-filters",
+    "name": "Photo Filters",
+    "shortDescription": "Professional, browser-based Photo Filters utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "03-image-editing",
+    "route": "/tool/photo-filters",
+    "iconName": "Sliders",
+    "category": "Transform",
+    "tags": [
+      "photo filters",
+      "image editing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "photo filters",
+      "photo filters online",
+      "free photo filters"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Photo Filters — Free Online Tool | ToolNova",
+      "h1": "Photo Filters",
+      "metaDescription": "Use the Photo Filters on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Photo Filters."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "jpg-to-png",
+    "slug": "jpg-to-png",
+    "name": "Jpg To Png",
+    "shortDescription": "Professional, browser-based Jpg To Png utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "04-image-converter",
+    "route": "/tool/jpg-to-png",
+    "iconName": "Sparkles",
+    "category": "Format Conversion",
+    "tags": [
+      "jpg to png",
+      "image converter & encoder",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "jpg to png",
+      "jpg to png online",
+      "free jpg to png"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Jpg To Png — Free Online Tool | ToolNova",
+      "h1": "Jpg To Png",
+      "metaDescription": "Use the Jpg To Png on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Jpg To Png."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "png-to-jpg",
+    "slug": "png-to-jpg",
+    "name": "Png To Jpg",
+    "shortDescription": "Professional, browser-based Png To Jpg utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "04-image-converter",
+    "route": "/tool/png-to-jpg",
+    "iconName": "Sparkles",
+    "category": "Format Conversion",
+    "tags": [
+      "png to jpg",
+      "image converter & encoder",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "png to jpg",
+      "png to jpg online",
+      "free png to jpg"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Png To Jpg — Free Online Tool | ToolNova",
+      "h1": "Png To Jpg",
+      "metaDescription": "Use the Png To Jpg on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Png To Jpg."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "webp-converter",
+    "slug": "webp-converter",
+    "name": "Webp Converter",
+    "shortDescription": "Professional, browser-based Webp Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "04-image-converter",
+    "route": "/tool/webp-converter",
+    "iconName": "RefreshCw",
+    "category": "Format Conversion",
+    "tags": [
+      "webp converter",
+      "image converter & encoder",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "webp converter",
+      "webp converter online",
+      "free webp converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Webp Converter — Free Online Tool | ToolNova",
+      "h1": "Webp Converter",
+      "metaDescription": "Use the Webp Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Webp Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "image-to-base64",
+    "slug": "image-to-base64",
+    "name": "Image To Base64",
+    "shortDescription": "Professional, browser-based Image To Base64 utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "04-image-converter",
+    "route": "/tool/image-to-base64",
+    "iconName": "Sliders",
+    "category": "Format Conversion",
+    "tags": [
+      "image to base64",
+      "image converter & encoder",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "image to base64",
+      "image to base64 online",
+      "free image to base64"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Image To Base64 — Free Online Tool | ToolNova",
+      "h1": "Image To Base64",
+      "metaDescription": "Use the Image To Base64 on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Image To Base64."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "image-to-pdf",
+    "slug": "image-to-pdf",
+    "name": "Image To Pdf",
+    "shortDescription": "Professional, browser-based Image To Pdf utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "04-image-converter",
+    "route": "/tool/image-to-pdf",
+    "iconName": "FileText",
+    "category": "Format Conversion",
+    "tags": [
+      "image to pdf",
+      "image converter & encoder",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "image to pdf",
+      "image to pdf online",
+      "free image to pdf"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Image To Pdf — Free Online Tool | ToolNova",
+      "h1": "Image To Pdf",
+      "metaDescription": "Use the Image To Pdf on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Image To Pdf."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "merge-pdf",
+    "slug": "merge-pdf",
+    "name": "Merge Pdf",
+    "shortDescription": "Professional, browser-based Merge Pdf utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "05-pdf-tools",
+    "route": "/tool/merge-pdf",
+    "iconName": "FileText",
+    "category": "Organize",
+    "tags": [
+      "merge pdf",
+      "pdf tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "merge pdf",
+      "merge pdf online",
+      "free merge pdf"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Merge Pdf — Free Online Tool | ToolNova",
+      "h1": "Merge Pdf",
+      "metaDescription": "Use the Merge Pdf on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Merge Pdf."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "split-pdf",
+    "slug": "split-pdf",
+    "name": "Split Pdf",
+    "shortDescription": "Professional, browser-based Split Pdf utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "05-pdf-tools",
+    "route": "/tool/split-pdf",
+    "iconName": "FileText",
+    "category": "Organize",
+    "tags": [
+      "split pdf",
+      "pdf tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "split pdf",
+      "split pdf online",
+      "free split pdf"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Split Pdf — Free Online Tool | ToolNova",
+      "h1": "Split Pdf",
+      "metaDescription": "Use the Split Pdf on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Split Pdf."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pdf-watermarker",
+    "slug": "pdf-watermarker",
+    "name": "Pdf Watermarker",
+    "shortDescription": "Professional, browser-based Pdf Watermarker utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "05-pdf-tools",
+    "route": "/tool/pdf-watermarker",
+    "iconName": "FileText",
+    "category": "Organize",
+    "tags": [
+      "pdf watermarker",
+      "pdf tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "pdf watermarker",
+      "pdf watermarker online",
+      "free pdf watermarker"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Pdf Watermarker — Free Online Tool | ToolNova",
+      "h1": "Pdf Watermarker",
+      "metaDescription": "Use the Pdf Watermarker on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Pdf Watermarker."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pdf-page-numberer",
+    "slug": "pdf-page-numberer",
+    "name": "Pdf Page Numberer",
+    "shortDescription": "Professional, browser-based Pdf Page Numberer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "05-pdf-tools",
+    "route": "/tool/pdf-page-numberer",
+    "iconName": "FileText",
+    "category": "Organize",
+    "tags": [
+      "pdf page numberer",
+      "pdf tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "pdf page numberer",
+      "pdf page numberer online",
+      "free pdf page numberer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Pdf Page Numberer — Free Online Tool | ToolNova",
+      "h1": "Pdf Page Numberer",
+      "metaDescription": "Use the Pdf Page Numberer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Pdf Page Numberer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "images-to-pdf",
+    "slug": "images-to-pdf",
+    "name": "Images To Pdf",
+    "shortDescription": "Professional, browser-based Images To Pdf utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "05-pdf-tools",
+    "route": "/tool/images-to-pdf",
+    "iconName": "FileText",
+    "category": "Organize",
+    "tags": [
+      "images to pdf",
+      "pdf tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "images to pdf",
+      "images to pdf online",
+      "free images to pdf"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Images To Pdf — Free Online Tool | ToolNova",
+      "h1": "Images To Pdf",
+      "metaDescription": "Use the Images To Pdf on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Images To Pdf."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "html-to-markdown",
+    "slug": "html-to-markdown",
+    "name": "Html To Markdown",
+    "shortDescription": "Professional, browser-based Html To Markdown utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "06-doc-converter",
+    "route": "/tool/html-to-markdown",
+    "iconName": "Code",
+    "category": "Markdown",
+    "tags": [
+      "html to markdown",
+      "document converter tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "html to markdown",
+      "html to markdown online",
+      "free html to markdown"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Html To Markdown — Free Online Tool | ToolNova",
+      "h1": "Html To Markdown",
+      "metaDescription": "Use the Html To Markdown on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Html To Markdown."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "text-cleaner",
+    "slug": "text-cleaner",
+    "name": "Text Cleaner",
+    "shortDescription": "Professional, browser-based Text Cleaner utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "06-doc-converter",
+    "route": "/tool/text-cleaner",
+    "iconName": "Type",
+    "category": "Markdown",
+    "tags": [
+      "text cleaner",
+      "document converter tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "text cleaner",
+      "text cleaner online",
+      "free text cleaner"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Text Cleaner — Free Online Tool | ToolNova",
+      "h1": "Text Cleaner",
+      "metaDescription": "Use the Text Cleaner on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Text Cleaner."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "rtf-extractor",
+    "slug": "rtf-extractor",
+    "name": "Rtf Extractor",
+    "shortDescription": "Professional, browser-based Rtf Extractor utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "06-doc-converter",
+    "route": "/tool/rtf-extractor",
+    "iconName": "Sparkles",
+    "category": "Markdown",
+    "tags": [
+      "rtf extractor",
+      "document converter tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "rtf extractor",
+      "rtf extractor online",
+      "free rtf extractor"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Rtf Extractor — Free Online Tool | ToolNova",
+      "h1": "Rtf Extractor",
+      "metaDescription": "Use the Rtf Extractor on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Rtf Extractor."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "file-magic-bytes",
+    "slug": "file-magic-bytes",
+    "name": "File Magic Bytes",
+    "shortDescription": "Professional, browser-based File Magic Bytes utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "07-file-utilities",
+    "route": "/tool/file-magic-bytes",
+    "iconName": "Sparkles",
+    "category": "Inspection",
+    "tags": [
+      "file magic bytes",
+      "file utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "file magic bytes",
+      "file magic bytes online",
+      "free file magic bytes"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "File Magic Bytes — Free Online Tool | ToolNova",
+      "h1": "File Magic Bytes",
+      "metaDescription": "Use the File Magic Bytes on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for File Magic Bytes."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "zip-creator",
+    "slug": "zip-creator",
+    "name": "Zip Creator",
+    "shortDescription": "Professional, browser-based Zip Creator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "07-file-utilities",
+    "route": "/tool/zip-creator",
+    "iconName": "Sparkles",
+    "category": "Inspection",
+    "tags": [
+      "zip creator",
+      "file utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "zip creator",
+      "zip creator online",
+      "free zip creator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Zip Creator — Free Online Tool | ToolNova",
+      "h1": "Zip Creator",
+      "metaDescription": "Use the Zip Creator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Zip Creator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "mime-type-checker",
+    "slug": "mime-type-checker",
+    "name": "Mime Type Checker",
+    "shortDescription": "Professional, browser-based Mime Type Checker utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "07-file-utilities",
+    "route": "/tool/mime-type-checker",
+    "iconName": "Check",
+    "category": "Inspection",
+    "tags": [
+      "mime type checker",
+      "file utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "mime type checker",
+      "mime type checker online",
+      "free mime type checker"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Mime Type Checker — Free Online Tool | ToolNova",
+      "h1": "Mime Type Checker",
+      "metaDescription": "Use the Mime Type Checker on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Mime Type Checker."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "video-metadata-inspector",
+    "slug": "video-metadata-inspector",
+    "name": "Video Metadata Inspector",
+    "shortDescription": "Professional, browser-based Video Metadata Inspector utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "08-video-tools",
+    "route": "/tool/video-metadata-inspector",
+    "iconName": "Sparkles",
+    "category": "Inspection",
+    "tags": [
+      "video metadata inspector",
+      "video tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "video metadata inspector",
+      "video metadata inspector online",
+      "free video metadata inspector"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Video Metadata Inspector — Free Online Tool | ToolNova",
+      "h1": "Video Metadata Inspector",
+      "metaDescription": "Use the Video Metadata Inspector on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Video Metadata Inspector."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "video-aspect-calculator",
+    "slug": "video-aspect-calculator",
+    "name": "Video Aspect Calculator",
+    "shortDescription": "Professional, browser-based Video Aspect Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "08-video-tools",
+    "route": "/tool/video-aspect-calculator",
+    "iconName": "DollarSign",
+    "category": "Inspection",
+    "tags": [
+      "video aspect calculator",
+      "video tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "video aspect calculator",
+      "video aspect calculator online",
+      "free video aspect calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Video Aspect Calculator — Free Online Tool | ToolNova",
+      "h1": "Video Aspect Calculator",
+      "metaDescription": "Use the Video Aspect Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Video Aspect Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "binaural-beats-gen",
+    "slug": "binaural-beats-gen",
+    "name": "Binaural Beats Gen",
+    "shortDescription": "Professional, browser-based Binaural Beats Gen utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "09-audio-tools",
+    "route": "/tool/binaural-beats-gen",
+    "iconName": "Search",
+    "category": "Synthesizer",
+    "tags": [
+      "binaural beats gen",
+      "audio tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "binaural beats gen",
+      "binaural beats gen online",
+      "free binaural beats gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Binaural Beats Gen — Free Online Tool | ToolNova",
+      "h1": "Binaural Beats Gen",
+      "metaDescription": "Use the Binaural Beats Gen on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Binaural Beats Gen."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "audio-metadata-reader",
+    "slug": "audio-metadata-reader",
+    "name": "Audio Metadata Reader",
+    "shortDescription": "Professional, browser-based Audio Metadata Reader utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "09-audio-tools",
+    "route": "/tool/audio-metadata-reader",
+    "iconName": "Sparkles",
+    "category": "Synthesizer",
+    "tags": [
+      "audio metadata reader",
+      "audio tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "audio metadata reader",
+      "audio metadata reader online",
+      "free audio metadata reader"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Audio Metadata Reader — Free Online Tool | ToolNova",
+      "h1": "Audio Metadata Reader",
+      "metaDescription": "Use the Audio Metadata Reader on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Audio Metadata Reader."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "receipt-enhancer",
+    "slug": "receipt-enhancer",
+    "name": "Receipt Enhancer",
+    "shortDescription": "Professional, browser-based Receipt Enhancer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "10-ocr-scanner",
+    "route": "/tool/receipt-enhancer",
+    "iconName": "Sparkles",
+    "category": "Scanner",
+    "tags": [
+      "receipt enhancer",
+      "ocr & scanner",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "receipt enhancer",
+      "receipt enhancer online",
+      "free receipt enhancer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Receipt Enhancer — Free Online Tool | ToolNova",
+      "h1": "Receipt Enhancer",
+      "metaDescription": "Use the Receipt Enhancer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Receipt Enhancer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "ocr-text-extractor",
+    "slug": "ocr-text-extractor",
+    "name": "Ocr Text Extractor",
+    "shortDescription": "Professional, browser-based Ocr Text Extractor utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "10-ocr-scanner",
+    "route": "/tool/ocr-text-extractor",
+    "iconName": "Type",
+    "category": "Scanner",
+    "tags": [
+      "ocr text extractor",
+      "ocr & scanner",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "ocr text extractor",
+      "ocr text extractor online",
+      "free ocr text extractor"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Ocr Text Extractor — Free Online Tool | ToolNova",
+      "h1": "Ocr Text Extractor",
+      "metaDescription": "Use the Ocr Text Extractor on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Ocr Text Extractor."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "case-converter",
+    "slug": "case-converter",
+    "name": "Case Converter",
+    "shortDescription": "Professional, browser-based Case Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "11-text-writing",
+    "route": "/tool/case-converter",
+    "iconName": "RefreshCw",
+    "category": "Metrics",
+    "tags": [
+      "case converter",
+      "text & writing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "case converter",
+      "case converter online",
+      "free case converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Case Converter — Free Online Tool | ToolNova",
+      "h1": "Case Converter",
+      "metaDescription": "Use the Case Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Case Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "text-diff-checker",
+    "slug": "text-diff-checker",
+    "name": "Text Diff Checker",
+    "shortDescription": "Professional, browser-based Text Diff Checker utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "11-text-writing",
+    "route": "/tool/text-diff-checker",
+    "iconName": "Check",
+    "category": "Metrics",
+    "tags": [
+      "text diff checker",
+      "text & writing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "text diff checker",
+      "text diff checker online",
+      "free text diff checker"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Text Diff Checker — Free Online Tool | ToolNova",
+      "h1": "Text Diff Checker",
+      "metaDescription": "Use the Text Diff Checker on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Text Diff Checker."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "duplicate-line-remover",
+    "slug": "duplicate-line-remover",
+    "name": "Duplicate Line Remover",
+    "shortDescription": "Professional, browser-based Duplicate Line Remover utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "11-text-writing",
+    "route": "/tool/duplicate-line-remover",
+    "iconName": "Sparkles",
+    "category": "Metrics",
+    "tags": [
+      "duplicate line remover",
+      "text & writing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "duplicate line remover",
+      "duplicate line remover online",
+      "free duplicate line remover"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Duplicate Line Remover — Free Online Tool | ToolNova",
+      "h1": "Duplicate Line Remover",
+      "metaDescription": "Use the Duplicate Line Remover on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Duplicate Line Remover."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "slug-generator",
+    "slug": "slug-generator",
+    "name": "Slug Generator",
+    "shortDescription": "Professional, browser-based Slug Generator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "11-text-writing",
+    "route": "/tool/slug-generator",
+    "iconName": "Sparkles",
+    "category": "Metrics",
+    "tags": [
+      "slug generator",
+      "text & writing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "slug generator",
+      "slug generator online",
+      "free slug generator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Slug Generator — Free Online Tool | ToolNova",
+      "h1": "Slug Generator",
+      "metaDescription": "Use the Slug Generator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Slug Generator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "text-summarizer-rule",
+    "slug": "text-summarizer-rule",
+    "name": "Text Summarizer Rule",
+    "shortDescription": "Professional, browser-based Text Summarizer Rule utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "12-ai-text",
+    "route": "/tool/text-summarizer-rule",
+    "iconName": "Type",
+    "category": "Analysis",
+    "tags": [
+      "text summarizer rule",
+      "ai text tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "text summarizer rule",
+      "text summarizer rule online",
+      "free text summarizer rule"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Text Summarizer Rule — Free Online Tool | ToolNova",
+      "h1": "Text Summarizer Rule",
+      "metaDescription": "Use the Text Summarizer Rule on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Text Summarizer Rule."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "text-tone-analyzer",
+    "slug": "text-tone-analyzer",
+    "name": "Text Tone Analyzer",
+    "shortDescription": "Professional, browser-based Text Tone Analyzer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "12-ai-text",
+    "route": "/tool/text-tone-analyzer",
+    "iconName": "Type",
+    "category": "Analysis",
+    "tags": [
+      "text tone analyzer",
+      "ai text tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "text tone analyzer",
+      "text tone analyzer online",
+      "free text tone analyzer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Text Tone Analyzer — Free Online Tool | ToolNova",
+      "h1": "Text Tone Analyzer",
+      "metaDescription": "Use the Text Tone Analyzer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Text Tone Analyzer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "token-estimator",
+    "slug": "token-estimator",
+    "name": "Token Estimator",
+    "shortDescription": "Professional, browser-based Token Estimator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "13-ai-prompt",
+    "route": "/tool/token-estimator",
+    "iconName": "Shield",
+    "category": "Prompt Engineering",
+    "tags": [
+      "token estimator",
+      "ai prompt & productivity",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "token estimator",
+      "token estimator online",
+      "free token estimator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Token Estimator — Free Online Tool | ToolNova",
+      "h1": "Token Estimator",
+      "metaDescription": "Use the Token Estimator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Token Estimator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "system-prompt-architect",
+    "slug": "system-prompt-architect",
+    "name": "System Prompt Architect",
+    "shortDescription": "Professional, browser-based System Prompt Architect utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "13-ai-prompt",
+    "route": "/tool/system-prompt-architect",
+    "iconName": "Sparkles",
+    "category": "Prompt Engineering",
+    "tags": [
+      "system prompt architect",
+      "ai prompt & productivity",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "system prompt architect",
+      "system prompt architect online",
+      "free system prompt architect"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "System Prompt Architect — Free Online Tool | ToolNova",
+      "h1": "System Prompt Architect",
+      "metaDescription": "Use the System Prompt Architect on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for System Prompt Architect."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "compound-interest-sim",
+    "slug": "compound-interest-sim",
+    "name": "Compound Interest Sim",
+    "shortDescription": "Professional, browser-based Compound Interest Sim utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "14-financial-calc",
+    "route": "/tool/compound-interest-sim",
+    "iconName": "Sparkles",
+    "category": "Loans & EMI",
+    "tags": [
+      "compound interest sim",
+      "financial calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "compound interest sim",
+      "compound interest sim online",
+      "free compound interest sim"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Compound Interest Sim — Free Online Tool | ToolNova",
+      "h1": "Compound Interest Sim",
+      "metaDescription": "Use the Compound Interest Sim on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Compound Interest Sim."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "sip-investment-calc",
+    "slug": "sip-investment-calc",
+    "name": "Sip Investment Calc",
+    "shortDescription": "Professional, browser-based Sip Investment Calc utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "14-financial-calc",
+    "route": "/tool/sip-investment-calc",
+    "iconName": "DollarSign",
+    "category": "Loans & EMI",
+    "tags": [
+      "sip investment calc",
+      "financial calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "sip investment calc",
+      "sip investment calc online",
+      "free sip investment calc"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Sip Investment Calc — Free Online Tool | ToolNova",
+      "h1": "Sip Investment Calc",
+      "metaDescription": "Use the Sip Investment Calc on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Sip Investment Calc."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "inflation-calculator",
+    "slug": "inflation-calculator",
+    "name": "Inflation Calculator",
+    "shortDescription": "Professional, browser-based Inflation Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "14-financial-calc",
+    "route": "/tool/inflation-calculator",
+    "iconName": "DollarSign",
+    "category": "Loans & EMI",
+    "tags": [
+      "inflation calculator",
+      "financial calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "inflation calculator",
+      "inflation calculator online",
+      "free inflation calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Inflation Calculator — Free Online Tool | ToolNova",
+      "h1": "Inflation Calculator",
+      "metaDescription": "Use the Inflation Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Inflation Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "break-even-calculator",
+    "slug": "break-even-calculator",
+    "name": "Break Even Calculator",
+    "shortDescription": "Professional, browser-based Break Even Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "15-business-calc",
+    "route": "/tool/break-even-calculator",
+    "iconName": "DollarSign",
+    "category": "Profitability",
+    "tags": [
+      "break even calculator",
+      "business calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "break even calculator",
+      "break even calculator online",
+      "free break even calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Break Even Calculator — Free Online Tool | ToolNova",
+      "h1": "Break Even Calculator",
+      "metaDescription": "Use the Break Even Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Break Even Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "cac-ltv-calculator",
+    "slug": "cac-ltv-calculator",
+    "name": "Cac Ltv Calculator",
+    "shortDescription": "Professional, browser-based Cac Ltv Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "15-business-calc",
+    "route": "/tool/cac-ltv-calculator",
+    "iconName": "DollarSign",
+    "category": "Profitability",
+    "tags": [
+      "cac ltv calculator",
+      "business calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "cac ltv calculator",
+      "cac ltv calculator online",
+      "free cac ltv calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Cac Ltv Calculator — Free Online Tool | ToolNova",
+      "h1": "Cac Ltv Calculator",
+      "metaDescription": "Use the Cac Ltv Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Cac Ltv Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "bmr-tdee-calculator",
+    "slug": "bmr-tdee-calculator",
+    "name": "Bmr Tdee Calculator",
+    "shortDescription": "Professional, browser-based Bmr Tdee Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "16-health-fitness",
+    "route": "/tool/bmr-tdee-calculator",
+    "iconName": "DollarSign",
+    "category": "Body Metrics",
+    "tags": [
+      "bmr tdee calculator",
+      "health & fitness calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "bmr tdee calculator",
+      "bmr tdee calculator online",
+      "free bmr tdee calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Bmr Tdee Calculator — Free Online Tool | ToolNova",
+      "h1": "Bmr Tdee Calculator",
+      "metaDescription": "Use the Bmr Tdee Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Bmr Tdee Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "target-heart-rate-calc",
+    "slug": "target-heart-rate-calc",
+    "name": "Target Heart Rate Calc",
+    "shortDescription": "Professional, browser-based Target Heart Rate Calc utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "16-health-fitness",
+    "route": "/tool/target-heart-rate-calc",
+    "iconName": "DollarSign",
+    "category": "Body Metrics",
+    "tags": [
+      "target heart rate calc",
+      "health & fitness calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "target heart rate calc",
+      "target heart rate calc online",
+      "free target heart rate calc"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Target Heart Rate Calc — Free Online Tool | ToolNova",
+      "h1": "Target Heart Rate Calc",
+      "metaDescription": "Use the Target Heart Rate Calc on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Target Heart Rate Calc."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "water-intake-calc",
+    "slug": "water-intake-calc",
+    "name": "Water Intake Calc",
+    "shortDescription": "Professional, browser-based Water Intake Calc utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "16-health-fitness",
+    "route": "/tool/water-intake-calc",
+    "iconName": "DollarSign",
+    "category": "Body Metrics",
+    "tags": [
+      "water intake calc",
+      "health & fitness calculators",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "water intake calc",
+      "water intake calc online",
+      "free water intake calc"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Water Intake Calc — Free Online Tool | ToolNova",
+      "h1": "Water Intake Calc",
+      "metaDescription": "Use the Water Intake Calc on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Water Intake Calc."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "working-days-calculator",
+    "slug": "working-days-calculator",
+    "name": "Working Days Calculator",
+    "shortDescription": "Professional, browser-based Working Days Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "17-date-time",
+    "route": "/tool/working-days-calculator",
+    "iconName": "DollarSign",
+    "category": "Calculators",
+    "tags": [
+      "working days calculator",
+      "date & time tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "working days calculator",
+      "working days calculator online",
+      "free working days calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Working Days Calculator — Free Online Tool | ToolNova",
+      "h1": "Working Days Calculator",
+      "metaDescription": "Use the Working Days Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Working Days Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "world-timezone-converter",
+    "slug": "world-timezone-converter",
+    "name": "World Timezone Converter",
+    "shortDescription": "Professional, browser-based World Timezone Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "17-date-time",
+    "route": "/tool/world-timezone-converter",
+    "iconName": "RefreshCw",
+    "category": "Calculators",
+    "tags": [
+      "world timezone converter",
+      "date & time tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "world timezone converter",
+      "world timezone converter online",
+      "free world timezone converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "World Timezone Converter — Free Online Tool | ToolNova",
+      "h1": "World Timezone Converter",
+      "metaDescription": "Use the World Timezone Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for World Timezone Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "unix-timestamp-converter",
+    "slug": "unix-timestamp-converter",
+    "name": "Unix Timestamp Converter",
+    "shortDescription": "Professional, browser-based Unix Timestamp Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "17-date-time",
+    "route": "/tool/unix-timestamp-converter",
+    "iconName": "RefreshCw",
+    "category": "Calculators",
+    "tags": [
+      "unix timestamp converter",
+      "date & time tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "unix timestamp converter",
+      "unix timestamp converter online",
+      "free unix timestamp converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Unix Timestamp Converter — Free Online Tool | ToolNova",
+      "h1": "Unix Timestamp Converter",
+      "metaDescription": "Use the Unix Timestamp Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Unix Timestamp Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "digital-storage-converter",
+    "slug": "digital-storage-converter",
+    "name": "Digital Storage Converter",
+    "shortDescription": "Professional, browser-based Digital Storage Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "18-unit-converter",
+    "route": "/tool/digital-storage-converter",
+    "iconName": "RefreshCw",
+    "category": "Length & Area",
+    "tags": [
+      "digital storage converter",
+      "unit & measurement converter",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "digital storage converter",
+      "digital storage converter online",
+      "free digital storage converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Digital Storage Converter — Free Online Tool | ToolNova",
+      "h1": "Digital Storage Converter",
+      "metaDescription": "Use the Digital Storage Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Digital Storage Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "temperature-converter",
+    "slug": "temperature-converter",
+    "name": "Temperature Converter",
+    "shortDescription": "Professional, browser-based Temperature Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "18-unit-converter",
+    "route": "/tool/temperature-converter",
+    "iconName": "RefreshCw",
+    "category": "Length & Area",
+    "tags": [
+      "temperature converter",
+      "unit & measurement converter",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "temperature converter",
+      "temperature converter online",
+      "free temperature converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Temperature Converter — Free Online Tool | ToolNova",
+      "h1": "Temperature Converter",
+      "metaDescription": "Use the Temperature Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Temperature Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "weight-converter",
+    "slug": "weight-converter",
+    "name": "Weight Converter",
+    "shortDescription": "Professional, browser-based Weight Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "18-unit-converter",
+    "route": "/tool/weight-converter",
+    "iconName": "RefreshCw",
+    "category": "Length & Area",
+    "tags": [
+      "weight converter",
+      "unit & measurement converter",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "weight converter",
+      "weight converter online",
+      "free weight converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Weight Converter — Free Online Tool | ToolNova",
+      "h1": "Weight Converter",
+      "metaDescription": "Use the Weight Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Weight Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tip-and-split-calculator",
+    "slug": "tip-and-split-calculator",
+    "name": "Tip And Split Calculator",
+    "shortDescription": "Professional, browser-based Tip And Split Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "19-currency-money",
+    "route": "/tool/tip-and-split-calculator",
+    "iconName": "DollarSign",
+    "category": "Exchange Rates",
+    "tags": [
+      "tip and split calculator",
+      "currency & money converter",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "tip and split calculator",
+      "tip and split calculator online",
+      "free tip and split calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Tip And Split Calculator — Free Online Tool | ToolNova",
+      "h1": "Tip And Split Calculator",
+      "metaDescription": "Use the Tip And Split Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Tip And Split Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "cash-denomination-counter",
+    "slug": "cash-denomination-counter",
+    "name": "Cash Denomination Counter",
+    "shortDescription": "Professional, browser-based Cash Denomination Counter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "19-currency-money",
+    "route": "/tool/cash-denomination-counter",
+    "iconName": "Sparkles",
+    "category": "Exchange Rates",
+    "tags": [
+      "cash denomination counter",
+      "currency & money converter",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "cash denomination counter",
+      "cash denomination counter online",
+      "free cash denomination counter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Cash Denomination Counter — Free Online Tool | ToolNova",
+      "h1": "Cash Denomination Counter",
+      "metaDescription": "Use the Cash Denomination Counter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Cash Denomination Counter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "json-validator",
+    "slug": "json-validator",
+    "name": "Json Validator",
+    "shortDescription": "Professional, browser-based Json Validator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "20-developer-json",
+    "route": "/tool/json-validator",
+    "iconName": "Code",
+    "category": "Formatting",
+    "tags": [
+      "json validator",
+      "developer json & data tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "json validator",
+      "json validator online",
+      "free json validator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Json Validator — Free Online Tool | ToolNova",
+      "h1": "Json Validator",
+      "metaDescription": "Use the Json Validator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Json Validator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "json-to-csv",
+    "slug": "json-to-csv",
+    "name": "Json To Csv",
+    "shortDescription": "Professional, browser-based Json To Csv utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "20-developer-json",
+    "route": "/tool/json-to-csv",
+    "iconName": "Code",
+    "category": "Formatting",
+    "tags": [
+      "json to csv",
+      "developer json & data tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "json to csv",
+      "json to csv online",
+      "free json to csv"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Json To Csv — Free Online Tool | ToolNova",
+      "h1": "Json To Csv",
+      "metaDescription": "Use the Json To Csv on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Json To Csv."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "json-minifier",
+    "slug": "json-minifier",
+    "name": "Json Minifier",
+    "shortDescription": "Professional, browser-based Json Minifier utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "20-developer-json",
+    "route": "/tool/json-minifier",
+    "iconName": "Code",
+    "category": "Formatting",
+    "tags": [
+      "json minifier",
+      "developer json & data tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "json minifier",
+      "json minifier online",
+      "free json minifier"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Json Minifier — Free Online Tool | ToolNova",
+      "h1": "Json Minifier",
+      "metaDescription": "Use the Json Minifier on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Json Minifier."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "base64-studio",
+    "slug": "base64-studio",
+    "name": "Base64 Studio",
+    "shortDescription": "Professional, browser-based Base64 Studio utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "21-encoding-hash",
+    "route": "/tool/base64-studio",
+    "iconName": "Sparkles",
+    "category": "Hashing",
+    "tags": [
+      "base64 studio",
+      "encoding, hash & security utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "base64 studio",
+      "base64 studio online",
+      "free base64 studio"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Base64 Studio — Free Online Tool | ToolNova",
+      "h1": "Base64 Studio",
+      "metaDescription": "Use the Base64 Studio on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Base64 Studio."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "password-generator",
+    "slug": "password-generator",
+    "name": "Password Generator",
+    "shortDescription": "Professional, browser-based Password Generator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "21-encoding-hash",
+    "route": "/tool/password-generator",
+    "iconName": "Shield",
+    "category": "Hashing",
+    "tags": [
+      "password generator",
+      "encoding, hash & security utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "password generator",
+      "password generator online",
+      "free password generator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Password Generator — Free Online Tool | ToolNova",
+      "h1": "Password Generator",
+      "metaDescription": "Use the Password Generator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Password Generator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "uuid-v4-generator",
+    "slug": "uuid-v4-generator",
+    "name": "Uuid V4 Generator",
+    "shortDescription": "Professional, browser-based Uuid V4 Generator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "21-encoding-hash",
+    "route": "/tool/uuid-v4-generator",
+    "iconName": "Sparkles",
+    "category": "Hashing",
+    "tags": [
+      "uuid v4 generator",
+      "encoding, hash & security utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "uuid v4 generator",
+      "uuid v4 generator online",
+      "free uuid v4 generator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Uuid V4 Generator — Free Online Tool | ToolNova",
+      "h1": "Uuid V4 Generator",
+      "metaDescription": "Use the Uuid V4 Generator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Uuid V4 Generator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "css-minifier-tool",
+    "slug": "css-minifier-tool",
+    "name": "Css Minifier Tool",
+    "shortDescription": "Professional, browser-based Css Minifier Tool utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "22-web-code",
+    "route": "/tool/css-minifier-tool",
+    "iconName": "Code",
+    "category": "HTML",
+    "tags": [
+      "css minifier tool",
+      "web code tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "css minifier tool",
+      "css minifier tool online",
+      "free css minifier tool"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Css Minifier Tool — Free Online Tool | ToolNova",
+      "h1": "Css Minifier Tool",
+      "metaDescription": "Use the Css Minifier Tool on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Css Minifier Tool."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "svg-viewer-cleaner",
+    "slug": "svg-viewer-cleaner",
+    "name": "Svg Viewer Cleaner",
+    "shortDescription": "Professional, browser-based Svg Viewer Cleaner utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "22-web-code",
+    "route": "/tool/svg-viewer-cleaner",
+    "iconName": "Sparkles",
+    "category": "HTML",
+    "tags": [
+      "svg viewer cleaner",
+      "web code tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "svg viewer cleaner",
+      "svg viewer cleaner online",
+      "free svg viewer cleaner"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Svg Viewer Cleaner — Free Online Tool | ToolNova",
+      "h1": "Svg Viewer Cleaner",
+      "metaDescription": "Use the Svg Viewer Cleaner on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Svg Viewer Cleaner."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "regex-cheatsheet-tool",
+    "slug": "regex-cheatsheet-tool",
+    "name": "Regex Cheatsheet Tool",
+    "shortDescription": "Professional, browser-based Regex Cheatsheet Tool utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "23-regex-code",
+    "route": "/tool/regex-cheatsheet-tool",
+    "iconName": "Code",
+    "category": "Regex Sandbox",
+    "tags": [
+      "regex cheatsheet tool",
+      "regex & code utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "regex cheatsheet tool",
+      "regex cheatsheet tool online",
+      "free regex cheatsheet tool"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Regex Cheatsheet Tool — Free Online Tool | ToolNova",
+      "h1": "Regex Cheatsheet Tool",
+      "metaDescription": "Use the Regex Cheatsheet Tool on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Regex Cheatsheet Tool."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "string-escape-tool",
+    "slug": "string-escape-tool",
+    "name": "String Escape Tool",
+    "shortDescription": "Professional, browser-based String Escape Tool utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "23-regex-code",
+    "route": "/tool/string-escape-tool",
+    "iconName": "Sparkles",
+    "category": "Regex Sandbox",
+    "tags": [
+      "string escape tool",
+      "regex & code utilities",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "string escape tool",
+      "string escape tool online",
+      "free string escape tool"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "String Escape Tool — Free Online Tool | ToolNova",
+      "h1": "String Escape Tool",
+      "metaDescription": "Use the String Escape Tool on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for String Escape Tool."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "open-graph-card-gen",
+    "slug": "open-graph-card-gen",
+    "name": "Open Graph Card Gen",
+    "shortDescription": "Professional, browser-based Open Graph Card Gen utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "24-seo-tools",
+    "route": "/tool/open-graph-card-gen",
+    "iconName": "CreditCard",
+    "category": "SERP Preview",
+    "tags": [
+      "open graph card gen",
+      "seo tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "open graph card gen",
+      "open graph card gen online",
+      "free open graph card gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Open Graph Card Gen — Free Online Tool | ToolNova",
+      "h1": "Open Graph Card Gen",
+      "metaDescription": "Use the Open Graph Card Gen on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Open Graph Card Gen."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "keyword-density-analyzer",
+    "slug": "keyword-density-analyzer",
+    "name": "Keyword Density Analyzer",
+    "shortDescription": "Professional, browser-based Keyword Density Analyzer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "24-seo-tools",
+    "route": "/tool/keyword-density-analyzer",
+    "iconName": "Search",
+    "category": "SERP Preview",
+    "tags": [
+      "keyword density analyzer",
+      "seo tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "keyword density analyzer",
+      "keyword density analyzer online",
+      "free keyword density analyzer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Keyword Density Analyzer — Free Online Tool | ToolNova",
+      "h1": "Keyword Density Analyzer",
+      "metaDescription": "Use the Keyword Density Analyzer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Keyword Density Analyzer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "robots-txt-builder",
+    "slug": "robots-txt-builder",
+    "name": "Robots Txt Builder",
+    "shortDescription": "Professional, browser-based Robots Txt Builder utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "24-seo-tools",
+    "route": "/tool/robots-txt-builder",
+    "iconName": "Sparkles",
+    "category": "SERP Preview",
+    "tags": [
+      "robots txt builder",
+      "seo tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "robots txt builder",
+      "robots txt builder online",
+      "free robots txt builder"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Robots Txt Builder — Free Online Tool | ToolNova",
+      "h1": "Robots Txt Builder",
+      "metaDescription": "Use the Robots Txt Builder on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Robots Txt Builder."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "url-parser-builder",
+    "slug": "url-parser-builder",
+    "name": "URL Query Parameter Inspector & Builder",
+    "shortDescription": "Professional, browser-based URL Query Parameter Inspector & Builder utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "25-url-web",
+    "route": "/tool/url-parser-builder",
+    "iconName": "Sparkles",
+    "category": "URL Parsing",
+    "tags": [
+      "url parser builder",
+      "url & web tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "url parser builder",
+      "url parser builder online",
+      "free url parser builder"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "URL Query Parameter Inspector & Builder — Free Online Tool | ToolNova",
+      "h1": "URL Query Parameter Inspector & Builder",
+      "metaDescription": "Use the URL Query Parameter Inspector & Builder on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for URL Query Parameter Inspector & Builder."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "utm-campaign-builder",
+    "slug": "utm-campaign-builder",
+    "name": "Google Analytics UTM Campaign Link Builder",
+    "shortDescription": "Professional, browser-based Google Analytics UTM Campaign Link Builder utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "25-url-web",
+    "route": "/tool/utm-campaign-builder",
+    "iconName": "Sparkles",
+    "category": "URL Parsing",
+    "tags": [
+      "utm campaign builder",
+      "url & web tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "utm campaign builder",
+      "utm campaign builder online",
+      "free utm campaign builder"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Google Analytics UTM Campaign Link Builder — Free Online Tool | ToolNova",
+      "h1": "Google Analytics UTM Campaign Link Builder",
+      "metaDescription": "Use the Google Analytics UTM Campaign Link Builder on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Google Analytics UTM Campaign Link Builder."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "url-encoder-decoder",
+    "slug": "url-encoder-decoder",
+    "name": "URL Percent-Encoding & Decoding Studio",
+    "shortDescription": "Professional, browser-based URL Percent-Encoding & Decoding Studio utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "25-url-web",
+    "route": "/tool/url-encoder-decoder",
+    "iconName": "Code",
+    "category": "URL Parsing",
+    "tags": [
+      "url encoder decoder",
+      "url & web tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "url encoder decoder",
+      "url encoder decoder online",
+      "free url encoder decoder"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "URL Percent-Encoding & Decoding Studio — Free Online Tool | ToolNova",
+      "h1": "URL Percent-Encoding & Decoding Studio",
+      "metaDescription": "Use the URL Percent-Encoding & Decoding Studio on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for URL Percent-Encoding & Decoding Studio."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "wcag-contrast-checker",
+    "slug": "wcag-contrast-checker",
+    "name": "WCAG 2.1 Color Contrast Ratio Checker",
+    "shortDescription": "Professional, browser-based WCAG 2.1 Color Contrast Ratio Checker utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "26-color-design",
+    "route": "/tool/wcag-contrast-checker",
+    "iconName": "Check",
+    "category": "Converters",
+    "tags": [
+      "wcag contrast checker",
+      "color & design tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "wcag contrast checker",
+      "wcag contrast checker online",
+      "free wcag contrast checker"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "WCAG 2.1 Color Contrast Ratio Checker — Free Online Tool | ToolNova",
+      "h1": "WCAG 2.1 Color Contrast Ratio Checker",
+      "metaDescription": "Use the WCAG 2.1 Color Contrast Ratio Checker on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for WCAG 2.1 Color Contrast Ratio Checker."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "color-palette-generator",
+    "slug": "color-palette-generator",
+    "name": "Harmonious Color Palette & Scheme Studio",
+    "shortDescription": "Professional, browser-based Harmonious Color Palette & Scheme Studio utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "26-color-design",
+    "route": "/tool/color-palette-generator",
+    "iconName": "Palette",
+    "category": "Converters",
+    "tags": [
+      "color palette generator",
+      "color & design tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "color palette generator",
+      "color palette generator online",
+      "free color palette generator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Harmonious Color Palette & Scheme Studio — Free Online Tool | ToolNova",
+      "h1": "Harmonious Color Palette & Scheme Studio",
+      "metaDescription": "Use the Harmonious Color Palette & Scheme Studio on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Harmonious Color Palette & Scheme Studio."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "social-character-counter",
+    "slug": "social-character-counter",
+    "name": "Social Media Character Counter (X, IG, LinkedIn)",
+    "shortDescription": "Professional, browser-based Social Media Character Counter (X, IG, LinkedIn) utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "27-social-media",
+    "route": "/tool/social-character-counter",
+    "iconName": "Share2",
+    "category": "Character Limits",
+    "tags": [
+      "social character counter",
+      "social media tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "social character counter",
+      "social character counter online",
+      "free social character counter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Social Media Character Counter (X, IG, LinkedIn) — Free Online Tool | ToolNova",
+      "h1": "Social Media Character Counter (X, IG, LinkedIn)",
+      "metaDescription": "Use the Social Media Character Counter (X, IG, LinkedIn) on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Social Media Character Counter (X, IG, LinkedIn)."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "social-dimension-guide",
+    "slug": "social-dimension-guide",
+    "name": "Social Media Image Dimension Cheat Sheet",
+    "shortDescription": "Professional, browser-based Social Media Image Dimension Cheat Sheet utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "27-social-media",
+    "route": "/tool/social-dimension-guide",
+    "iconName": "Share2",
+    "category": "Character Limits",
+    "tags": [
+      "social dimension guide",
+      "social media tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "social dimension guide",
+      "social dimension guide online",
+      "free social dimension guide"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Social Media Image Dimension Cheat Sheet — Free Online Tool | ToolNova",
+      "h1": "Social Media Image Dimension Cheat Sheet",
+      "metaDescription": "Use the Social Media Image Dimension Cheat Sheet on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Social Media Image Dimension Cheat Sheet."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "hashtag-extractor",
+    "slug": "hashtag-extractor",
+    "name": "Hashtag Extractor & Keyword Generator",
+    "shortDescription": "Professional, browser-based Hashtag Extractor & Keyword Generator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "27-social-media",
+    "route": "/tool/hashtag-extractor",
+    "iconName": "Share2",
+    "category": "Character Limits",
+    "tags": [
+      "hashtag extractor",
+      "social media tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "hashtag extractor",
+      "hashtag extractor online",
+      "free hashtag extractor"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Hashtag Extractor & Keyword Generator — Free Online Tool | ToolNova",
+      "h1": "Hashtag Extractor & Keyword Generator",
+      "metaDescription": "Use the Hashtag Extractor & Keyword Generator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Hashtag Extractor & Keyword Generator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "email-subject-tester",
+    "slug": "email-subject-tester",
+    "name": "Email Subject Line Tester & Spam Scanner",
+    "shortDescription": "Professional, browser-based Email Subject Line Tester & Spam Scanner utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "28-marketing",
+    "route": "/tool/email-subject-tester",
+    "iconName": "Sparkles",
+    "category": "Email Marketing",
+    "tags": [
+      "email subject tester",
+      "marketing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "email subject tester",
+      "email subject tester online",
+      "free email subject tester"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Email Subject Line Tester & Spam Scanner — Free Online Tool | ToolNova",
+      "h1": "Email Subject Line Tester & Spam Scanner",
+      "metaDescription": "Use the Email Subject Line Tester & Spam Scanner on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Email Subject Line Tester & Spam Scanner."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "roas-calculator",
+    "slug": "roas-calculator",
+    "name": "ROAS & Ad Spend Return Calculator",
+    "shortDescription": "Professional, browser-based ROAS & Ad Spend Return Calculator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "28-marketing",
+    "route": "/tool/roas-calculator",
+    "iconName": "DollarSign",
+    "category": "Email Marketing",
+    "tags": [
+      "roas calculator",
+      "marketing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "roas calculator",
+      "roas calculator online",
+      "free roas calculator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "ROAS & Ad Spend Return Calculator — Free Online Tool | ToolNova",
+      "h1": "ROAS & Ad Spend Return Calculator",
+      "metaDescription": "Use the ROAS & Ad Spend Return Calculator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for ROAS & Ad Spend Return Calculator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "email-signature-generator",
+    "slug": "email-signature-generator",
+    "name": "Clean HTML Email Signature Builder",
+    "shortDescription": "Professional, browser-based Clean HTML Email Signature Builder utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "28-marketing",
+    "route": "/tool/email-signature-generator",
+    "iconName": "Sparkles",
+    "category": "Email Marketing",
+    "tags": [
+      "email signature generator",
+      "marketing tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "email signature generator",
+      "email signature generator online",
+      "free email signature generator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Clean HTML Email Signature Builder — Free Online Tool | ToolNova",
+      "h1": "Clean HTML Email Signature Builder",
+      "metaDescription": "Use the Clean HTML Email Signature Builder on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Clean HTML Email Signature Builder."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "resume-action-verbs",
+    "slug": "resume-action-verbs",
+    "name": "Resume Power Action Verbs Finder",
+    "shortDescription": "Professional, browser-based Resume Power Action Verbs Finder utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "29-resume-career",
+    "route": "/tool/resume-action-verbs",
+    "iconName": "Type",
+    "category": "Resume Building",
+    "tags": [
+      "resume action verbs",
+      "resume & career tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "resume action verbs",
+      "resume action verbs online",
+      "free resume action verbs"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Resume Power Action Verbs Finder — Free Online Tool | ToolNova",
+      "h1": "Resume Power Action Verbs Finder",
+      "metaDescription": "Use the Resume Power Action Verbs Finder on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Resume Power Action Verbs Finder."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "salary-hourly-converter",
+    "slug": "salary-hourly-converter",
+    "name": "Hourly to Annual Salary Wage Converter",
+    "shortDescription": "Professional, browser-based Hourly to Annual Salary Wage Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "29-resume-career",
+    "route": "/tool/salary-hourly-converter",
+    "iconName": "RefreshCw",
+    "category": "Resume Building",
+    "tags": [
+      "salary hourly converter",
+      "resume & career tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "salary hourly converter",
+      "salary hourly converter online",
+      "free salary hourly converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Hourly to Annual Salary Wage Converter — Free Online Tool | ToolNova",
+      "h1": "Hourly to Annual Salary Wage Converter",
+      "metaDescription": "Use the Hourly to Annual Salary Wage Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Hourly to Annual Salary Wage Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "ats-keyword-scanner",
+    "slug": "ats-keyword-scanner",
+    "name": "ATS Resume Keyword Scanner & Matcher",
+    "shortDescription": "Professional, browser-based ATS Resume Keyword Scanner & Matcher utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "29-resume-career",
+    "route": "/tool/ats-keyword-scanner",
+    "iconName": "Search",
+    "category": "Resume Building",
+    "tags": [
+      "ats keyword scanner",
+      "resume & career tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "ats keyword scanner",
+      "ats keyword scanner online",
+      "free ats keyword scanner"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "ATS Resume Keyword Scanner & Matcher — Free Online Tool | ToolNova",
+      "h1": "ATS Resume Keyword Scanner & Matcher",
+      "metaDescription": "Use the ATS Resume Keyword Scanner & Matcher on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for ATS Resume Keyword Scanner & Matcher."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "citation-generator-helper",
+    "slug": "citation-generator-helper",
+    "name": "Academic Citation Generator (APA / MLA / Chicago)",
+    "shortDescription": "Professional, browser-based Academic Citation Generator (APA / MLA / Chicago) utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "30-education-student",
+    "route": "/tool/citation-generator-helper",
+    "iconName": "Sparkles",
+    "category": "Grades",
+    "tags": [
+      "citation generator helper",
+      "education & student tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "citation generator helper",
+      "citation generator helper online",
+      "free citation generator helper"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Academic Citation Generator (APA / MLA / Chicago) — Free Online Tool | ToolNova",
+      "h1": "Academic Citation Generator (APA / MLA / Chicago)",
+      "metaDescription": "Use the Academic Citation Generator (APA / MLA / Chicago) on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Academic Citation Generator (APA / MLA / Chicago)."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "pomodoro-study-timer",
+    "slug": "pomodoro-study-timer",
+    "name": "Pomodoro Focus & Study Timer",
+    "shortDescription": "Professional, browser-based Pomodoro Focus & Study Timer utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "30-education-student",
+    "route": "/tool/pomodoro-study-timer",
+    "iconName": "Clock",
+    "category": "Grades",
+    "tags": [
+      "pomodoro study timer",
+      "education & student tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "pomodoro study timer",
+      "pomodoro study timer online",
+      "free pomodoro study timer"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Pomodoro Focus & Study Timer — Free Online Tool | ToolNova",
+      "h1": "Pomodoro Focus & Study Timer",
+      "metaDescription": "Use the Pomodoro Focus & Study Timer on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Pomodoro Focus & Study Timer."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "private-scratchpad",
+    "slug": "private-scratchpad",
+    "name": "Private Auto-Saving Local Scratchpad Notes",
+    "shortDescription": "Professional, browser-based Private Auto-Saving Local Scratchpad Notes utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "31-productivity",
+    "route": "/tool/private-scratchpad",
+    "iconName": "DollarSign",
+    "category": "Notes",
+    "tags": [
+      "private scratchpad",
+      "productivity tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "private scratchpad",
+      "private scratchpad online",
+      "free private scratchpad"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Private Auto-Saving Local Scratchpad Notes — Free Online Tool | ToolNova",
+      "h1": "Private Auto-Saving Local Scratchpad Notes",
+      "metaDescription": "Use the Private Auto-Saving Local Scratchpad Notes on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Private Auto-Saving Local Scratchpad Notes."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "eisenhower-matrix-tool",
+    "slug": "eisenhower-matrix-tool",
+    "name": "Eisenhower Priority Matrix Decision Planner",
+    "shortDescription": "Professional, browser-based Eisenhower Priority Matrix Decision Planner utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "31-productivity",
+    "route": "/tool/eisenhower-matrix-tool",
+    "iconName": "Check",
+    "category": "Notes",
+    "tags": [
+      "eisenhower matrix tool",
+      "productivity tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "eisenhower matrix tool",
+      "eisenhower matrix tool online",
+      "free eisenhower matrix tool"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Eisenhower Priority Matrix Decision Planner — Free Online Tool | ToolNova",
+      "h1": "Eisenhower Priority Matrix Decision Planner",
+      "metaDescription": "Use the Eisenhower Priority Matrix Decision Planner on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Eisenhower Priority Matrix Decision Planner."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "quick-checklist-tool",
+    "slug": "quick-checklist-tool",
+    "name": "Quick Task & Productivity Checklist",
+    "shortDescription": "Professional, browser-based Quick Task & Productivity Checklist utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "31-productivity",
+    "route": "/tool/quick-checklist-tool",
+    "iconName": "Check",
+    "category": "Notes",
+    "tags": [
+      "quick checklist tool",
+      "productivity tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "quick checklist tool",
+      "quick checklist tool online",
+      "free quick checklist tool"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Quick Task & Productivity Checklist — Free Online Tool | ToolNova",
+      "h1": "Quick Task & Productivity Checklist",
+      "metaDescription": "Use the Quick Task & Productivity Checklist on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Quick Task & Productivity Checklist."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "travel-packing-checklist",
+    "slug": "travel-packing-checklist",
+    "name": "Travel Packing Checklist by Destination",
+    "shortDescription": "Professional, browser-based Travel Packing Checklist by Destination utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "32-travel-tools",
+    "route": "/tool/travel-packing-checklist",
+    "iconName": "Check",
+    "category": "Checklists",
+    "tags": [
+      "travel packing checklist",
+      "travel tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "travel packing checklist",
+      "travel packing checklist online",
+      "free travel packing checklist"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Travel Packing Checklist by Destination — Free Online Tool | ToolNova",
+      "h1": "Travel Packing Checklist by Destination",
+      "metaDescription": "Use the Travel Packing Checklist by Destination on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Travel Packing Checklist by Destination."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "jet-lag-planner",
+    "slug": "jet-lag-planner",
+    "name": "Jet Lag & Circadian Phase Alignment Planner",
+    "shortDescription": "Professional, browser-based Jet Lag & Circadian Phase Alignment Planner utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "32-travel-tools",
+    "route": "/tool/jet-lag-planner",
+    "iconName": "Clock",
+    "category": "Checklists",
+    "tags": [
+      "jet lag planner",
+      "travel tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "jet lag planner",
+      "jet lag planner online",
+      "free jet lag planner"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Jet Lag & Circadian Phase Alignment Planner — Free Online Tool | ToolNova",
+      "h1": "Jet Lag & Circadian Phase Alignment Planner",
+      "metaDescription": "Use the Jet Lag & Circadian Phase Alignment Planner on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Jet Lag & Circadian Phase Alignment Planner."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "plug-voltage-lookup",
+    "slug": "plug-voltage-lookup",
+    "name": "International Electrical Socket & Voltage Guide",
+    "shortDescription": "Professional, browser-based International Electrical Socket & Voltage Guide utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "32-travel-tools",
+    "route": "/tool/plug-voltage-lookup",
+    "iconName": "Clock",
+    "category": "Checklists",
+    "tags": [
+      "plug voltage lookup",
+      "travel tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "plug voltage lookup",
+      "plug voltage lookup online",
+      "free plug voltage lookup"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "International Electrical Socket & Voltage Guide — Free Online Tool | ToolNova",
+      "h1": "International Electrical Socket & Voltage Guide",
+      "metaDescription": "Use the International Electrical Socket & Voltage Guide on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for International Electrical Socket & Voltage Guide."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "emirates-id-validator",
+    "slug": "emirates-id-validator",
+    "name": "Emirates ID Format & Modulo-10 Validator",
+    "shortDescription": "Professional, browser-based Emirates ID Format & Modulo-10 Validator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "33-uae-tools",
+    "route": "/tool/emirates-id-validator",
+    "iconName": "Shield",
+    "category": "UAE Legal & Labor",
+    "tags": [
+      "emirates id validator",
+      "uae tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "emirates id validator",
+      "emirates id validator online",
+      "free emirates id validator"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Emirates ID Format & Modulo-10 Validator — Free Online Tool | ToolNova",
+      "h1": "Emirates ID Format & Modulo-10 Validator",
+      "metaDescription": "Use the Emirates ID Format & Modulo-10 Validator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Emirates ID Format & Modulo-10 Validator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "csv-to-json-converter",
+    "slug": "csv-to-json-converter",
+    "name": "CSV to JSON Universal Data Converter",
+    "shortDescription": "Professional, browser-based CSV to JSON Universal Data Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "34-data-spreadsheet",
+    "route": "/tool/csv-to-json-converter",
+    "iconName": "RefreshCw",
+    "category": "CSV Conversion",
+    "tags": [
+      "csv to json converter",
+      "data & spreadsheet tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "csv to json converter",
+      "csv to json converter online",
+      "free csv to json converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "CSV to JSON Universal Data Converter — Free Online Tool | ToolNova",
+      "h1": "CSV to JSON Universal Data Converter",
+      "metaDescription": "Use the CSV to JSON Universal Data Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for CSV to JSON Universal Data Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "csv-table-inspector",
+    "slug": "csv-table-inspector",
+    "name": "CSV & TSV Interactive Table Data Inspector",
+    "shortDescription": "Professional, browser-based CSV & TSV Interactive Table Data Inspector utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "34-data-spreadsheet",
+    "route": "/tool/csv-table-inspector",
+    "iconName": "Table",
+    "category": "CSV Conversion",
+    "tags": [
+      "csv table inspector",
+      "data & spreadsheet tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "csv table inspector",
+      "csv table inspector online",
+      "free csv table inspector"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "CSV & TSV Interactive Table Data Inspector — Free Online Tool | ToolNova",
+      "h1": "CSV & TSV Interactive Table Data Inspector",
+      "metaDescription": "Use the CSV & TSV Interactive Table Data Inspector on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for CSV & TSV Interactive Table Data Inspector."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tsv-csv-converter",
+    "slug": "tsv-csv-converter",
+    "name": "TSV / CSV Delimiter Swapper & Converter",
+    "shortDescription": "Professional, browser-based TSV / CSV Delimiter Swapper & Converter utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "34-data-spreadsheet",
+    "route": "/tool/tsv-csv-converter",
+    "iconName": "RefreshCw",
+    "category": "CSV Conversion",
+    "tags": [
+      "tsv csv converter",
+      "data & spreadsheet tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "tsv csv converter",
+      "tsv csv converter online",
+      "free tsv csv converter"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "TSV / CSV Delimiter Swapper & Converter — Free Online Tool | ToolNova",
+      "h1": "TSV / CSV Delimiter Swapper & Converter",
+      "metaDescription": "Use the TSV / CSV Delimiter Swapper & Converter on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for TSV / CSV Delimiter Swapper & Converter."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "lorem-ipsum-studio",
+    "slug": "lorem-ipsum-studio",
+    "name": "Lorem Ipsum Generator & Dummy Text Studio",
+    "shortDescription": "Professional, browser-based Lorem Ipsum Generator & Dummy Text Studio utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "35-generators-privacy",
+    "route": "/tool/lorem-ipsum-studio",
+    "iconName": "Type",
+    "category": "Mock Data",
+    "tags": [
+      "lorem ipsum studio",
+      "generators & privacy tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "lorem ipsum studio",
+      "lorem ipsum studio online",
+      "free lorem ipsum studio"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Lorem Ipsum Generator & Dummy Text Studio — Free Online Tool | ToolNova",
+      "h1": "Lorem Ipsum Generator & Dummy Text Studio",
+      "metaDescription": "Use the Lorem Ipsum Generator & Dummy Text Studio on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Lorem Ipsum Generator & Dummy Text Studio."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "secure-random-string-gen",
+    "slug": "secure-random-string-gen",
+    "name": "Secure Cryptographic Token & Password Generator",
+    "shortDescription": "Professional, browser-based Secure Cryptographic Token & Password Generator utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "35-generators-privacy",
+    "route": "/tool/secure-random-string-gen",
+    "iconName": "Sparkles",
+    "category": "Mock Data",
+    "tags": [
+      "secure random string gen",
+      "generators & privacy tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "secure random string gen",
+      "secure random string gen online",
+      "free secure random string gen"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Secure Cryptographic Token & Password Generator — Free Online Tool | ToolNova",
+      "h1": "Secure Cryptographic Token & Password Generator",
+      "metaDescription": "Use the Secure Cryptographic Token & Password Generator on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Secure Cryptographic Token & Password Generator."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
+  {
+    "id": "privacy-policy-checklist",
+    "slug": "privacy-policy-checklist",
+    "name": "Privacy & AdSense Compliance Audit Checklist",
+    "shortDescription": "Professional, browser-based Privacy & AdSense Compliance Audit Checklist utility providing instantaneous client-side calculations and zero server data retention.",
+    "workspaceId": "35-generators-privacy",
+    "route": "/tool/privacy-policy-checklist",
+    "iconName": "Check",
+    "category": "Mock Data",
+    "tags": [
+      "privacy policy checklist",
+      "generators & privacy tools",
+      "online tool",
+      "free tool"
+    ],
+    "keywords": [
+      "privacy policy checklist",
+      "privacy policy checklist online",
+      "free privacy policy checklist"
+    ],
+    "status": "active",
+    "isPopular": false,
+    "clientOnly": true,
+    "requiresBackend": false,
+    "requiresAI": false,
+    "seo": {
+      "title": "Privacy & AdSense Compliance Audit Checklist — Free Online Tool | ToolNova",
+      "h1": "Privacy & AdSense Compliance Audit Checklist",
+      "metaDescription": "Use the Privacy & AdSense Compliance Audit Checklist on ToolNova for free. Instant real-time results, private in-browser processing, and high accuracy.",
+      "howItWorks": [
+        {
+          "step": 1,
+          "title": "Input Data",
+          "desc": "Provide the required inputs or content for Privacy & AdSense Compliance Audit Checklist."
+        },
+        {
+          "step": 2,
+          "title": "Real-time Processing",
+          "desc": "Calculations and rendering execute instantaneously in your browser."
+        },
+        {
+          "step": 3,
+          "title": "Copy or Download",
+          "desc": "Export your results, formatted files, or copy to clipboard with a single click."
+        }
+      ],
+      "features": [
+        "100% private client-side execution",
+        "Instant real-time evaluation with zero latency",
+        "Cross-device responsive layout with dark mode support"
+      ],
+      "tips": [
+        "Bookmark this tool for quick access during your daily workflow."
+      ],
+      "faqs": [
+        {
+          "question": "Is my data transmitted to any external servers?",
+          "answer": "No. All operations run strictly inside your local browser sandbox."
+        }
+      ]
+    }
+  },
 ];
 
 /*

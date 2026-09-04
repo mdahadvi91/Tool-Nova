@@ -33,7 +33,7 @@ export const TextReadabilityStudio: React.FC = () => {
       };
     }
 
-    const wordsArr = trimmed.match(/\b[a-zA-Z0-9'-]+\b/g) || [];
+    const wordsArr: string[] = trimmed.match(/\b[a-zA-Z0-9'-]+\b/g) || [];
     const sentenceMatches = trimmed.match(/[^.!?]+[.!?]+(\s|$)/g);
     const sentences = sentenceMatches ? sentenceMatches.length : trimmed.split('\n').filter(Boolean).length || 1;
     const wordsCount = Math.max(1, wordsArr.length);

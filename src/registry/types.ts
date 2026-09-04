@@ -60,6 +60,7 @@ export interface TranslationDictionary {
   brandName: string;
   tagline: string;
   searchPlaceholder: string;
+  searchAriaLabel: string;
   workspaces: string;
   popularTools: string;
   featuredTools: string;
@@ -68,9 +69,71 @@ export interface TranslationDictionary {
   usefulContent: string;
   faq: string;
   privacyBadge: string;
+  clientSideExecution: string;
   exploreWorkspace: string;
   launchTool: string;
   backToWorkspaces: string;
   clientSidePrivacyNotice: string;
   footerRights: string;
+  quickSearch: string;
+  filterWorkspaces: string;
+  allCategories: string;
+  mediaAndDocs: string;
+  devEngineering: string;
+  financeBusiness: string;
+  productivityUtils: string;
+  platformStatus: string;
+  ready: string;
+  popular: string;
+
+  tryAgain: string;
+  backToTools: string;
+  goHome: string;
+  browseWorkspaces: string;
+  search: string;
+  clear: string;
+  reset: string;
+  copy: string;
+  copied: string;
+  download: string;
+  upload: string;
+  dragDrop: string;
+  generate: string;
+  convert: string;
+  calculate: string;
+  process: string;
+  share: string;
+  preview: string;
+
+  searchPageTitle: string;
+  searchPageSubtitle: string;
+  searchResultsFor: string;
+  noResultsFound: string;
+  noResultsHint: string;
+  toolsFound: string;
+  workspacesFound: string;
+
+  notFoundTitle: string;
+  notFoundSubtitle: string;
+  notFoundDesc: string;
+
+  toolErrorTitle: string;
+  toolErrorDesc: string;
+  workspaceErrorTitle: string;
+  workspaceErrorDesc: string;
+  appErrorTitle: string;
+  appErrorDesc: string;
+
+  privacyPolicy: string;
+  termsOfService: string;
+  cookiePreferences: string;
+  disclaimer: string;
+  sitemap: string;
+  legalNoticeTitle: string;
+  informationalNotice: string;
+  uaeDisclaimer: string;
+
+  proTipsTitle: string;
+  recommendedWorkflowTitle: string;
+  relatedToolsTitle: string;
 }

@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react';
-import { Building2, Percent, CheckCircle, Scale, Info, ShieldCheck } from 'lucide-react';
+import { Building2, Percent, CheckCircle, Scale, Info, ShieldCheck, CreditCard } from 'lucide-react';
 
-export const UaeToolsStudio: React.FC<{ defaultTab?: 'gratuity' | 'vat' }> = ({ defaultTab = 'gratuity' }) => {
-  const [activeTab, setActiveTab] = useState<'gratuity' | 'vat'>(defaultTab);
+export const UaeToolsStudio: React.FC<{ defaultTab?: 'gratuity' | 'vat' | 'emirates-id' }> = ({ defaultTab = 'gratuity' }) => {
+  const [activeTab, setActiveTab] = useState<'gratuity' | 'vat' | 'emirates-id'>(defaultTab);
 
   // Gratuity State
   const [basicSalary, setBasicSalary] = useState(12000);
@@ -15,6 +15,66 @@ export const UaeToolsStudio: React.FC<{ defaultTab?: 'gratuity' | 'vat' }> = ({ 
   // VAT State
   const [vatAmount, setVatAmount] = useState(1000);
   const [vatMode, setVatMode] = useState<'exclusive' | 'inclusive'>('exclusive');
+
+  // Emirates ID State
+  const [emiratesIdInput, setEmiratesIdInput] = useState('784-1990-1234567-1');
+
+  const emiratesIdResult = useMemo(() => {
+    const raw = emiratesIdInput.replace(/\D/g, '');
+    if (raw.length !== 15) {
+      return {
+        isValid: false,
+        length: raw.length,
+        countryCode: raw.slice(0, 3),
+        year: raw.slice(3, 7),
+        sequence: raw.slice(7, 14),
+        checkDigit: raw.slice(14, 15),
+        error: `Emirates ID must contain exactly 15 digits (currently ${raw.length}).`
+      };
+    }
+
+    const countryCode = raw.slice(0, 3);
+    const year = raw.slice(3, 7);
+    const sequence = raw.slice(7, 14);
+    const checkDigit = Number(raw.slice(14, 15));
+
+    if (countryCode !== '784') {
+      return {
+        isValid: false,
+        length: 15,
+        countryCode,
+        year,
+        sequence,
+        checkDigit,
+        error: 'Invalid country code. UAE Emirates ID must begin with 784.'
+      };
+    }
+
+    const yearNum = Number(year);
+    const currentYear = new Date().getFullYear();
+    if (yearNum < 1900 || yearNum > currentYear) {
+      return {
+        isValid: false,
+        length: 15,
+        countryCode,
+        year,
+        sequence,
+        checkDigit,
+        error: `Birth year ${year} is outside realistic range (1900-${currentYear}).`
+      };
+    }
+
+    return {
+      isValid: true,
+      length: 15,
+      countryCode,
+      year,
+      sequence,
+      checkDigit,
+      formatted: `784-${year}-${sequence}-${checkDigit}`,
+      error: null
+    };
+  }, [emiratesIdInput]);
 
   // Calculate UAE Gratuity under Federal Decree-Law No. 33 of 2021
   const gratuityResult = useMemo(() => {
@@ -115,6 +175,17 @@ export const UaeToolsStudio: React.FC<{ defaultTab?: 'gratuity' | 'vat' }> = ({ 
           >
             <Percent className="w-3.5 h-3.5" />
             <span>UAE 5% VAT Calculator</span>
+          </button>
+          <button
+            onClick={() => setActiveTab('emirates-id')}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold transition-all ${
+              activeTab === 'emirates-id'
+                ? 'bg-gradient-to-r from-purple-500 to-indigo-600 text-white shadow-lg shadow-purple-500/20'
+                : 'bg-slate-800/80 text-slate-400 hover:text-slate-200'
+            }`}
+          >
+            <CreditCard className="w-3.5 h-3.5" />
+            <span>Emirates ID Validator</span>
           </button>
         </div>
 
@@ -349,6 +420,72 @@ export const UaeToolsStudio: React.FC<{ defaultTab?: 'gratuity' | 'vat' }> = ({ 
                 Standard Federal Tax Authority (FTA) 5% VAT rate implemented in UAE since January 1, 2018.
               </span>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Emirates ID Validator */}
+      {activeTab === 'emirates-id' && (
+        <div className="space-y-6">
+          <div className="space-y-2">
+            <label className="text-xs font-semibold text-slate-300">
+              Enter 15-Digit Emirates ID Number
+            </label>
+            <input
+              type="text"
+              value={emiratesIdInput}
+              onChange={e => setEmiratesIdInput(e.target.value)}
+              placeholder="784-YYYY-XXXXXXX-C"
+              className="w-full bg-slate-950 border border-slate-800 rounded-xl px-4 py-3 font-mono text-base text-white tracking-widest focus:outline-none focus:border-purple-500"
+            />
+            <p className="text-[11px] text-slate-400">
+              Official format: 784 (UAE ISO code) - 4 digit birth year - 7 digit sequence - 1 check digit.
+            </p>
+          </div>
+
+          <div className={`p-5 rounded-2xl border ${
+            emiratesIdResult.isValid 
+              ? 'bg-emerald-950/20 border-emerald-800/40 text-emerald-300' 
+              : 'bg-red-950/20 border-red-800/40 text-red-300'
+          }`}>
+            <div className="flex items-center gap-3">
+              {emiratesIdResult.isValid ? (
+                <CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0" />
+              ) : (
+                <Info className="w-5 h-5 text-red-400 flex-shrink-0" />
+              )}
+              <div>
+                <h4 className="text-xs font-bold text-white">
+                  {emiratesIdResult.isValid ? 'Valid Emirates ID Format' : 'Invalid Emirates ID Format'}
+                </h4>
+                <p className="text-xs mt-0.5">
+                  {emiratesIdResult.isValid 
+                    ? `Formatted: ${emiratesIdResult.formatted}` 
+                    : emiratesIdResult.error}
+                </p>
+              </div>
+            </div>
+
+            {emiratesIdResult.isValid && (
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-4 pt-4 border-t border-emerald-800/30 text-xs">
+                <div>
+                  <span className="text-[10px] text-slate-400 uppercase">Country Code</span>
+                  <p className="font-mono font-bold text-white">784 (UAE)</p>
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-400 uppercase">Birth Year</span>
+                  <p className="font-mono font-bold text-white">{emiratesIdResult.year}</p>
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-400 uppercase">Sequence ID</span>
+                  <p className="font-mono font-bold text-white">{emiratesIdResult.sequence}</p>
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-400 uppercase">Check Digit</span>
+                  <p className="font-mono font-bold text-white">{emiratesIdResult.checkDigit}</p>
+                </div>
+              </div>
+            )}
           </div>
         </div>
       )}

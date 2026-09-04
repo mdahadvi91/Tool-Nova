@@ -90,5 +90,13 @@ export const AD_SLOTS: Record<AdPlacement, AdSlotConfig> = {
     format: 'responsive-banner',
     minWidth: 320,
     minHeight: 90
+  },
+  'search-between-results': {
+    id: 'slot-search',
+    placement: 'search-between-results',
+    preferredProvider: 'adsense',
+    format: 'responsive-banner',
+    minWidth: 320,
+    minHeight: 90
   }
 };
