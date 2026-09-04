@@ -1,0 +1,6 @@
+{
+  "name": "ZenithTools — Global Multi-Tool Cloud Studio",
+  "description": "Production-grade online utility platform featuring 35 dedicated workspaces for PDF, QR & Barcode, Image Editing, Business Cards, Converters, Calculators, Developer and Security utilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
