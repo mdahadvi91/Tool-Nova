@@ -6,10 +6,13 @@ import { ToolRenderer } from '../components/tools/ToolRenderer';
 import { DynamicIcon } from '../components/common/DynamicIcon';
 import { AdSlot } from '../ads/components/AdSlot';
 import { DocumentMeta } from '../components/seo/DocumentMeta';
+import { ErrorBoundary } from '../components/common/ErrorBoundary';
 import { SITE_CONFIG } from '../config/site';
+import { useI18n } from '../i18n/I18nContext';
 import { ChevronRight, ShieldCheck, Sparkles, HelpCircle, Lightbulb, CheckCircle2, ArrowRight } from 'lucide-react';
 
 export const ToolPage: React.FC = () => {
+  const { t } = useI18n();
   const { slug } = useParams<{ slug: string }>();
 
   const tool = TOOLS.find((t) => t.id === slug || t.slug === slug || t.route === `/tool/${slug}`);
@@ -99,7 +102,9 @@ export const ToolPage: React.FC = () => {
 
       {/* SACRED FUNCTIONAL TOOL ZONE: STRICTLY NO ADS IN THIS CONTAINER */}
       <section className="relative w-full" data-sacred-zone="true">
-        <ToolRenderer tool={tool} />
+        <ErrorBoundary resetKey={tool.id}>
+          <ToolRenderer tool={tool} />
+        </ErrorBoundary>
       </section>
 
       {/* Educational & SEO Guidance */}
@@ -108,7 +113,7 @@ export const ToolPage: React.FC = () => {
         <div className="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 space-y-4">
           <div className="flex items-center gap-2">
             <Sparkles className="w-5 h-5 text-cyan-400" />
-            <h3 className="text-sm font-bold text-white">How It Works</h3>
+            <h3 className="text-sm font-bold text-white">{t.howItWorks}</h3>
           </div>
           <div className="space-y-3">
             {tool.seo.howItWorks.map((step, idx) => (
@@ -147,7 +152,7 @@ export const ToolPage: React.FC = () => {
         <section className="bg-slate-900/40 border border-slate-800 rounded-2xl p-6 space-y-4">
           <div className="flex items-center gap-2">
             <HelpCircle className="w-5 h-5 text-cyan-400" />
-            <h3 className="text-sm font-bold text-white">Frequently Asked Questions</h3>
+            <h3 className="text-sm font-bold text-white">{t.faq}</h3>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2">

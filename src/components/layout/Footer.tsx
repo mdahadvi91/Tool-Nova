@@ -2,8 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Sparkles, Heart, Globe, ExternalLink } from 'lucide-react';
 import { WORKSPACES } from '../../registry/workspaces';
+import { useI18n } from '../../i18n/I18nContext';
 
 export const Footer: React.FC = () => {
+  const { t } = useI18n();
+
   return (
     <footer className="w-full border-t border-slate-800/80 bg-slate-950/90 text-slate-400 text-xs py-12 px-4 sm:px-6 lg:px-8 mt-16">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
@@ -19,14 +22,14 @@ export const Footer: React.FC = () => {
           </div>
 
           <p className="text-xs text-slate-400 leading-relaxed">
-            All Your Tools. One Powerful Platform. Built with a strict
+            {t.tagline} Built with a strict
             privacy-first architecture: calculations, PDF operations, media processing, and code utilities execute directly
             within your local web browser.
           </p>
 
           <div className="flex items-center gap-2 text-emerald-400 bg-emerald-950/30 p-2.5 rounded-xl border border-emerald-800/30 w-fit text-[11px]">
             <ShieldCheck className="w-4 h-4 flex-shrink-0" />
-            <span>Zero Remote File Logging • 100% In-Browser Execution</span>
+            <span>{t.privacyBadge}</span>
           </div>
         </div>
 
@@ -149,8 +152,8 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-        <p>© {new Date().getFullYear()} ToolNova. All rights reserved.</p>
-        <p>Engineered for high performance, accessibility (WCAG 2.1), and zero file retention.</p>
+        <p>© {new Date().getFullYear()} ToolNova. {t.footerRights}</p>
+        <p>{t.clientSidePrivacyNotice}</p>
       </div>
     </footer>
   );

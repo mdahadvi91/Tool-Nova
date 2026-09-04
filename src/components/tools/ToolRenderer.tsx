@@ -1,39 +1,131 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { ToolDefinition } from '../../registry/types';
-import { QrBarcodeStudio } from '../../tools/qr/QrBarcodeStudio';
-import { VisitingCardBuilder } from '../../tools/card/VisitingCardBuilder';
-import { ImageEditorStudio } from '../../tools/image/ImageEditorStudio';
-import { UniversalImageConverter } from '../../tools/image/UniversalImageConverter';
-import { PdfToolkit } from '../../tools/pdf/PdfToolkit';
-import { LoanEmiCalculator } from '../../tools/finance/LoanEmiCalculator';
-import { UaeToolsStudio } from '../../tools/uae/UaeToolsStudio';
-import { JsonStudio } from '../../tools/dev/JsonStudio';
-import { SecurityHashStudio } from '../../tools/security/SecurityHashStudio';
-import { RegexStudio } from '../../tools/regex/RegexStudio';
-import { ColorStudio } from '../../tools/color/ColorStudio';
-import { TextMetricsStudio } from '../../tools/text/TextMetricsStudio';
-import { UnitConverterStudio } from '../../tools/unit/UnitConverterStudio';
-import { DocConverterStudio } from '../../tools/doc/DocConverterStudio';
-import { FileUtilitiesStudio } from '../../tools/file/FileUtilitiesStudio';
-import { VideoToolsStudio } from '../../tools/video/VideoToolsStudio';
-import { AudioToolsStudio } from '../../tools/audio/AudioToolsStudio';
-import { DocumentScannerStudio } from '../../tools/ocr/DocumentScannerStudio';
-import { TextReadabilityStudio } from '../../tools/ai/TextReadabilityStudio';
-import { PromptEngineeringStudio } from '../../tools/ai/PromptEngineeringStudio';
-import { BusinessCalculatorStudio } from '../../tools/business/BusinessCalculatorStudio';
-import { HealthFitnessStudio } from '../../tools/health/HealthFitnessStudio';
-import { DateTimeStudio } from '../../tools/datetime/DateTimeStudio';
-import { CurrencyMoneyStudio } from '../../tools/currency/CurrencyMoneyStudio';
-import { WebCodeStudio } from '../../tools/web/WebCodeStudio';
-import { SeoSerpStudio } from '../../tools/seo/SeoSerpStudio';
-import { CssGradientStudio } from '../../tools/css/CssGradientStudio';
-import { MathStudyStudio } from '../../tools/education/MathStudyStudio';
+
+// Keep each studio out of the initial bundle. A failed chunk is handled by the
+// ErrorBoundary in ToolPage instead of leaving the page as a blank screen.
+const QrBarcodeStudio = lazy(() =>
+  import('../../tools/qr/QrBarcodeStudio').then(({ QrBarcodeStudio }) => ({ default: QrBarcodeStudio })),
+);
+const VisitingCardBuilder = lazy(() =>
+  import('../../tools/card/VisitingCardBuilder').then(({ VisitingCardBuilder }) => ({ default: VisitingCardBuilder })),
+);
+const ImageEditorStudio = lazy(() =>
+  import('../../tools/image/ImageEditorStudio').then(({ ImageEditorStudio }) => ({ default: ImageEditorStudio })),
+);
+const UniversalImageConverter = lazy(() =>
+  import('../../tools/image/UniversalImageConverter').then(({ UniversalImageConverter }) => ({
+    default: UniversalImageConverter,
+  })),
+);
+const PdfToolkit = lazy(() =>
+  import('../../tools/pdf/PdfToolkit').then(({ PdfToolkit }) => ({ default: PdfToolkit })),
+);
+const LoanEmiCalculator = lazy(() =>
+  import('../../tools/finance/LoanEmiCalculator').then(({ LoanEmiCalculator }) => ({ default: LoanEmiCalculator })),
+);
+const UaeToolsStudio = lazy(() =>
+  import('../../tools/uae/UaeToolsStudio').then(({ UaeToolsStudio }) => ({ default: UaeToolsStudio })),
+);
+const JsonStudio = lazy(() =>
+  import('../../tools/dev/JsonStudio').then(({ JsonStudio }) => ({ default: JsonStudio })),
+);
+const SecurityHashStudio = lazy(() =>
+  import('../../tools/security/SecurityHashStudio').then(({ SecurityHashStudio }) => ({ default: SecurityHashStudio })),
+);
+const RegexStudio = lazy(() =>
+  import('../../tools/regex/RegexStudio').then(({ RegexStudio }) => ({ default: RegexStudio })),
+);
+const ColorStudio = lazy(() =>
+  import('../../tools/color/ColorStudio').then(({ ColorStudio }) => ({ default: ColorStudio })),
+);
+const TextMetricsStudio = lazy(() =>
+  import('../../tools/text/TextMetricsStudio').then(({ TextMetricsStudio }) => ({ default: TextMetricsStudio })),
+);
+const UnitConverterStudio = lazy(() =>
+  import('../../tools/unit/UnitConverterStudio').then(({ UnitConverterStudio }) => ({ default: UnitConverterStudio })),
+);
+const DocConverterStudio = lazy(() =>
+  import('../../tools/doc/DocConverterStudio').then(({ DocConverterStudio }) => ({ default: DocConverterStudio })),
+);
+const FileUtilitiesStudio = lazy(() =>
+  import('../../tools/file/FileUtilitiesStudio').then(({ FileUtilitiesStudio }) => ({ default: FileUtilitiesStudio })),
+);
+const VideoToolsStudio = lazy(() =>
+  import('../../tools/video/VideoToolsStudio').then(({ VideoToolsStudio }) => ({ default: VideoToolsStudio })),
+);
+const AudioToolsStudio = lazy(() =>
+  import('../../tools/audio/AudioToolsStudio').then(({ AudioToolsStudio }) => ({ default: AudioToolsStudio })),
+);
+const DocumentScannerStudio = lazy(() =>
+  import('../../tools/ocr/DocumentScannerStudio').then(({ DocumentScannerStudio }) => ({
+    default: DocumentScannerStudio,
+  })),
+);
+const TextReadabilityStudio = lazy(() =>
+  import('../../tools/ai/TextReadabilityStudio').then(({ TextReadabilityStudio }) => ({
+    default: TextReadabilityStudio,
+  })),
+);
+const PromptEngineeringStudio = lazy(() =>
+  import('../../tools/ai/PromptEngineeringStudio').then(({ PromptEngineeringStudio }) => ({
+    default: PromptEngineeringStudio,
+  })),
+);
+const BusinessCalculatorStudio = lazy(() =>
+  import('../../tools/business/BusinessCalculatorStudio').then(({ BusinessCalculatorStudio }) => ({
+    default: BusinessCalculatorStudio,
+  })),
+);
+const HealthFitnessStudio = lazy(() =>
+  import('../../tools/health/HealthFitnessStudio').then(({ HealthFitnessStudio }) => ({
+    default: HealthFitnessStudio,
+  })),
+);
+const DateTimeStudio = lazy(() =>
+  import('../../tools/datetime/DateTimeStudio').then(({ DateTimeStudio }) => ({ default: DateTimeStudio })),
+);
+const CurrencyMoneyStudio = lazy(() =>
+  import('../../tools/currency/CurrencyMoneyStudio').then(({ CurrencyMoneyStudio }) => ({
+    default: CurrencyMoneyStudio,
+  })),
+);
+const WebCodeStudio = lazy(() =>
+  import('../../tools/web/WebCodeStudio').then(({ WebCodeStudio }) => ({ default: WebCodeStudio })),
+);
+const SeoSerpStudio = lazy(() =>
+  import('../../tools/seo/SeoSerpStudio').then(({ SeoSerpStudio }) => ({ default: SeoSerpStudio })),
+);
+const CssGradientStudio = lazy(() =>
+  import('../../tools/css/CssGradientStudio').then(({ CssGradientStudio }) => ({ default: CssGradientStudio })),
+);
+const MathStudyStudio = lazy(() =>
+  import('../../tools/education/MathStudyStudio').then(({ MathStudyStudio }) => ({ default: MathStudyStudio })),
+);
+const UtilityToolsStudio = lazy(() =>
+  import('../../tools/utility/UtilityToolsStudio').then(({ UtilityToolsStudio }) => ({ default: UtilityToolsStudio })),
+);
 
 interface ToolRendererProps {
   tool: ToolDefinition;
 }
 
 export const ToolRenderer: React.FC<ToolRendererProps> = ({ tool }) => {
+  return (
+    <Suspense
+      fallback={
+        <div role="status" className="rounded-2xl border border-slate-800 bg-slate-900/40 p-8 text-center">
+          <div className="mx-auto mb-3 h-6 w-6 animate-spin rounded-full border-2 border-cyan-400 border-t-transparent" />
+          <p className="text-sm font-semibold text-slate-200">Loading studio…</p>
+          <p className="mt-1 text-xs text-slate-500">Preparing the tool in your browser.</p>
+        </div>
+      }
+    >
+      <ToolContent tool={tool} />
+    </Suspense>
+  );
+};
+
+const ToolContent: React.FC<ToolRendererProps> = ({ tool }) => {
   switch (tool.id) {
     // 01 QR & Barcode
     case 'qr-barcode-studio':
@@ -240,11 +332,6 @@ export const ToolRenderer: React.FC<ToolRendererProps> = ({ tool }) => {
 
     // Default Fallback
     default:
-      return (
-        <div className="p-8 bg-slate-900/60 border border-slate-800 rounded-2xl text-center space-y-3">
-          <p className="text-base font-bold text-white">{tool.name}</p>
-          <p className="text-xs text-slate-400 max-w-md mx-auto">{tool.shortDescription}</p>
-        </div>
-      );
+      return <UtilityToolsStudio toolId={tool.id} />;
   }
 };

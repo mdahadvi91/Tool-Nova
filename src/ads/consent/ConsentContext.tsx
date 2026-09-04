@@ -17,6 +17,17 @@ const defaultConsent: AdConsentState = {
   personalizedAds: false,
 };
 
+function isConsentState(value: unknown): value is AdConsentState {
+  if (!value || typeof value !== 'object') return false;
+  const candidate = value as Partial<AdConsentState>;
+  return (
+    typeof candidate.hasConsent === 'boolean' &&
+    typeof candidate.analyticsConsent === 'boolean' &&
+    typeof candidate.marketingConsent === 'boolean' &&
+    typeof candidate.personalizedAds === 'boolean'
+  );
+}
+
 const ConsentContext = createContext<ConsentContextType>({
   consent: defaultConsent,
   showBanner: false,
@@ -34,8 +45,12 @@ export const ConsentProvider: React.FC<{ children: React.ReactNode }> = ({ child
       const saved = localStorage.getItem('zenith_consent_v1');
       if (saved) {
         const parsed = JSON.parse(saved);
-        setConsent(parsed);
-        adManager.updateConsent(parsed);
+        if (isConsentState(parsed)) {
+          setConsent(parsed);
+          adManager.updateConsent(parsed).catch(() => setShowBanner(true));
+        } else {
+          setShowBanner(true);
+        }
       } else {
         setShowBanner(true);
       }
@@ -52,7 +67,9 @@ export const ConsentProvider: React.FC<{ children: React.ReactNode }> = ({ child
     } catch (e) {
       console.warn(e);
     }
-    adManager.updateConsent(updated);
+    adManager.updateConsent(updated).catch(() => {
+      // Ads are optional; a provider failure must not interrupt the app.
+    });
   };
 
   const acceptAll = () => {

@@ -7,8 +7,10 @@ import { DocumentMeta } from '../components/seo/DocumentMeta';
 import { SITE_CONFIG } from '../config/site';
 import { ArrowRight, ChevronRight, CheckCircle, HelpCircle, Sparkles, BookOpen, Layers } from 'lucide-react';
 import { AdSlot } from '../ads/components/AdSlot';
+import { useI18n } from '../i18n/I18nContext';
 
 export const WorkspacePage: React.FC = () => {
+  const { t } = useI18n();
   const { id } = useParams<{ id: string }>();
 
   const workspace = WORKSPACES.find((w) => w.id === id || w.slug === id);
@@ -94,7 +96,7 @@ export const WorkspacePage: React.FC = () => {
       <section className="space-y-4">
         <div className="flex items-center justify-between">
           <h2 className="text-lg font-bold text-white flex items-center gap-2">
-            <span>Available Studio Tools</span>
+            <span>{t.allTools}</span>
             <span className="text-xs px-2 py-0.5 rounded-full bg-slate-800 text-slate-400 font-mono">
               {workspaceTools.length} Tools
             </span>
@@ -131,9 +133,9 @@ export const WorkspacePage: React.FC = () => {
               </div>
 
               <div className="flex items-center justify-between pt-4 mt-4 border-t border-slate-800/80 text-xs">
-                <span className="text-[11px] text-emerald-400 font-medium">Ready</span>
-                <span className="flex items-center gap-1 text-cyan-400 font-semibold group-hover:translate-x-0.5 transition-transform">
-                  Launch Studio <ArrowRight className="w-3.5 h-3.5" />
+                <span className="text-[11px] text-emerald-400 font-medium">{t.launchTool}</span>
+                  <span className="flex items-center gap-1 text-cyan-400 font-semibold group-hover:translate-x-0.5 transition-transform">
+                    {t.launchTool} <ArrowRight className="w-3.5 h-3.5" />
                 </span>
               </div>
             </Link>

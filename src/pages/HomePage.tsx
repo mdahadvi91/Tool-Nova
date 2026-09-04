@@ -7,8 +7,10 @@ import { DynamicIcon } from '../components/common/DynamicIcon';
 import { AdSlot } from '../ads/components/AdSlot';
 import { DocumentMeta } from '../components/seo/DocumentMeta';
 import { SITE_CONFIG } from '../config/site';
+import { useI18n } from '../i18n/I18nContext';
 
 export const HomePage: React.FC = () => {
+  const { t } = useI18n();
   const popularTools = TOOLS.filter((t) => t.isPopular);
   const featuredTools = TOOLS.filter((t) => t.isFeatured);
 
@@ -62,7 +64,7 @@ export const HomePage: React.FC = () => {
               to="/tool/qr-barcode-studio"
               className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white font-semibold text-xs sm:text-sm rounded-xl shadow-lg shadow-cyan-500/25 transition-all active:scale-[0.98]"
             >
-              <span>Launch QR & Barcode Studio</span>
+              <span>{t.launchTool}: QR &amp; Barcode Studio</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
 
@@ -70,7 +72,7 @@ export const HomePage: React.FC = () => {
               to="/workspace/05-pdf-tools"
               className="flex items-center gap-2 px-5 py-3 bg-slate-900 hover:bg-slate-800 text-slate-200 font-semibold text-xs sm:text-sm rounded-xl border border-slate-800 transition-all active:scale-[0.98]"
             >
-              <span>Explore PDF Toolkit</span>
+              <span>{t.exploreWorkspace}: PDF Toolkit</span>
             </Link>
           </div>
 
@@ -78,7 +80,7 @@ export const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-slate-800/80 text-xs text-slate-400">
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-cyan-400" />
-              <span>Zero server upload — 100% Client Privacy</span>
+              <span>{t.privacyBadge}</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle2 className="w-4 h-4 text-cyan-400" />
@@ -97,7 +99,7 @@ export const HomePage: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
-              <span>Popular Working Studios</span>
+              <span>{t.popularTools}</span>
               <span className="text-xs px-2.5 py-0.5 rounded-full bg-cyan-500/20 text-cyan-300 font-semibold">
                 Live & Functional
               </span>
@@ -152,7 +154,7 @@ export const HomePage: React.FC = () => {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl sm:text-2xl font-bold text-white">
-              All 35 Specialized Workspaces
+              {t.workspaces}
             </h2>
             <p className="text-xs text-slate-400 mt-1">Structured categories designed for rapid discovery and task execution</p>
           </div>
@@ -176,7 +178,7 @@ export const HomePage: React.FC = () => {
                 <div className="flex items-center gap-2 mt-2 text-[10px] text-slate-400">
                   <span className="font-mono text-cyan-400">{ws.toolIds.length} tools</span>
                   <span>•</span>
-                  <span>Open Workspace</span>
+                  <span>{t.exploreWorkspace}</span>
                 </div>
               </div>
             </Link>
@@ -192,7 +194,7 @@ export const HomePage: React.FC = () => {
         <div>
           <h2 className="text-xl font-bold text-white flex items-center gap-2">
             <HelpCircle className="w-5 h-5 text-cyan-400" />
-            <span>Frequently Asked Questions</span>
+            <span>{t.faq}</span>
           </h2>
           <p className="text-xs text-slate-400 mt-1">Everything you need to know about ToolNova privacy and architecture</p>
         </div>

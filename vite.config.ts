@@ -5,6 +5,9 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Relative assets work on both the Vercel root domain and the GitHub
+    // Pages project path (/Tool-Nova/).
+    base: './',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

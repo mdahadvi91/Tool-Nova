@@ -21,6 +21,13 @@ for (const ws of WORKSPACES) {
     console.error(`❌ Incomplete Workspace configuration: ${ws.id}`);
     hasErrors = true;
   }
+
+  for (const toolId of ws.toolIds) {
+    if (!TOOLS.some((tool) => tool.id === toolId)) {
+      console.error(`❌ Workspace ${ws.id} references missing tool: ${toolId}`);
+      hasErrors = true;
+    }
+  }
 }
 console.log(`✅ All ${WORKSPACES.length} Workspaces verified.`);
 
@@ -28,6 +35,7 @@ console.log(`✅ All ${WORKSPACES.length} Workspaces verified.`);
 console.log(`\n[2/4] Validating Tools (Found: ${TOOLS.length})...`);
 const toolIds = new Set<string>();
 const toolRoutes = new Set<string>();
+const toolSlugs = new Set<string>();
 
 for (const tool of TOOLS) {
   if (toolIds.has(tool.id)) {
@@ -35,6 +43,12 @@ for (const tool of TOOLS) {
     hasErrors = true;
   }
   toolIds.add(tool.id);
+
+  if (toolSlugs.has(tool.slug)) {
+    console.error(`❌ Duplicate Tool Slug: ${tool.slug}`);
+    hasErrors = true;
+  }
+  toolSlugs.add(tool.slug);
 
   if (toolRoutes.has(tool.route)) {
     console.error(`❌ Duplicate Tool Route: ${tool.route}`);
@@ -44,6 +58,10 @@ for (const tool of TOOLS) {
 
   if (!workspaceIds.has(tool.workspaceId)) {
     console.error(`❌ Tool ${tool.id} points to non-existent workspace: ${tool.workspaceId}`);
+    hasErrors = true;
+  }
+  if (tool.route !== `/tool/${tool.slug}`) {
+    console.error(`❌ Tool ${tool.id} route does not match its slug: ${tool.route}`);
     hasErrors = true;
   }
 }

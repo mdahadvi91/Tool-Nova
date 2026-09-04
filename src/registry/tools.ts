@@ -1,4 +1,5 @@
 import { ToolDefinition } from './types';
+import { WORKSPACES } from './workspaces';
 
 export const TOOLS: ToolDefinition[] = [
   // 01 QR & Barcode Tools
@@ -1111,6 +1112,107 @@ export const TOOLS: ToolDefinition[] = [
     }
   }
 ];
+
+/*
+ * Workspaces are the source of truth for the complete public catalog. The
+ * original registry contained only the first studio in many workspaces while
+ * the workspace definitions already listed the rest of the real utilities.
+ * Add those entries here from the existing workspace metadata so every
+ * advertised route is discoverable and gets the same production renderer.
+ */
+const ACRONYMS: Record<string, string> = {
+  ai: 'AI',
+  ats: 'ATS',
+  bmi: 'BMI',
+  bmr: 'BMR',
+  cac: 'CAC',
+  csv: 'CSV',
+  css: 'CSS',
+  emi: 'EMI',
+  gpa: 'GPA',
+  html: 'HTML',
+  json: 'JSON',
+  ocr: 'OCR',
+  pdf: 'PDF',
+  qr: 'QR',
+  roas: 'ROAS',
+  seo: 'SEO',
+  sip: 'SIP',
+  svg: 'SVG',
+  tdee: 'TDEE',
+  tsv: 'TSV',
+  uae: 'UAE',
+  url: 'URL',
+  utm: 'UTM',
+  vat: 'VAT',
+  wcag: 'WCAG',
+  wifi: 'Wi-Fi',
+  zip: 'ZIP',
+};
+
+function formatToolName(id: string): string {
+  return id
+    .split('-')
+    .map((word) => ACRONYMS[word] || word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
+}
+
+function createAliasTool(id: string, workspaceId: string, source?: ToolDefinition): ToolDefinition {
+  const workspace = WORKSPACES.find((item) => item.id === workspaceId);
+  const name = formatToolName(id);
+  const description = `${name} for ${workspace?.name || 'ToolNova'}. Processing runs locally in your browser.`;
+
+  return {
+    id,
+    slug: id,
+    name,
+    shortDescription: description,
+    workspaceId,
+    route: `/tool/${id}`,
+    iconName: source?.iconName || workspace?.iconName || 'Sparkles',
+    category: source?.category || workspace?.categories[0] || 'Utilities',
+    tags: source?.tags || [name.toLowerCase()],
+    keywords: source?.keywords || [name.toLowerCase(), 'online utility'],
+    status: source?.status || 'active',
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    relatedToolIds: source?.relatedToolIds,
+    seo: {
+      title: `${name} — ${workspace?.name || 'ToolNova'}`,
+      h1: name,
+      metaDescription: description,
+      howItWorks: [
+        { step: 1, title: 'Enter Your Data', desc: 'Provide the values or files needed by this utility.' },
+        { step: 2, title: 'Process Locally', desc: 'The calculation or transformation runs directly in your browser.' },
+        { step: 3, title: 'Review the Result', desc: 'Inspect the result and export or copy it when supported.' },
+      ],
+      features: [
+        'Runs locally in the browser',
+        'No account or server upload required',
+        `Focused ${workspace?.name || 'utility'} workflow`,
+      ],
+      tips: ['Review generated output before using it in production or official documents.'],
+      faqs: [
+        {
+          question: 'Are my inputs uploaded?',
+          answer: 'No. This utility processes inputs locally in your browser.',
+        },
+      ],
+    },
+  };
+}
+
+const registeredToolIds = new Set(TOOLS.map((tool) => tool.id));
+for (const workspace of WORKSPACES) {
+  const source = TOOLS.find((tool) => tool.workspaceId === workspace.id);
+  for (const toolId of workspace.toolIds) {
+    if (!registeredToolIds.has(toolId)) {
+      TOOLS.push(createAliasTool(toolId, workspace.id, source));
+      registeredToolIds.add(toolId);
+    }
+  }
+}
 
 export const TOOL_MAP = new Map<string, ToolDefinition>(
   TOOLS.map(t => [t.id, t])

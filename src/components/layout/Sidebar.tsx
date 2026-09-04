@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom';
 import { Search, ChevronRight, Sparkles, Filter, Layers } from 'lucide-react';
 import { WORKSPACES } from '../../registry/workspaces';
 import { DynamicIcon } from '../common/DynamicIcon';
+import { useI18n } from '../../i18n/I18nContext';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -11,6 +12,7 @@ interface SidebarProps {
 
 export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   const location = useLocation();
+  const { t } = useI18n();
   const [filterQuery, setFilterQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('All');
 
@@ -82,7 +84,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         {/* Scrollable Workspaces List */}
         <div className="flex-1 overflow-y-auto pr-1 space-y-1">
           <div className="text-[10px] font-semibold uppercase tracking-wider text-slate-400 px-2 mb-2 flex items-center justify-between">
-            <span>Workspaces ({filteredWorkspaces.length})</span>
+            <span>{t.workspaces} ({filteredWorkspaces.length})</span>
             <span className="font-mono text-cyan-400">01–35</span>
           </div>
 

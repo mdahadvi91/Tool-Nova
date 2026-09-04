@@ -14,7 +14,7 @@ export const AdSlot: React.FC<AdSlotProps> = ({ placement, className = '' }) => 
   // Validate policy upfront
   const policy = validatePlacementPolicy(placement);
   if (!policy.isValid) {
-    if (process.env.NODE_ENV !== 'production') {
+    if ((import.meta as ImportMeta & { env?: { DEV?: boolean } }).env?.DEV) {
       console.error(policy.reason);
     }
     return null;

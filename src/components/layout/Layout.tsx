@@ -2,17 +2,14 @@ import React, { useState } from 'react';
 import { Header } from './Header';
 import { Sidebar } from './Sidebar';
 import { Footer } from './Footer';
-import { SupportedLocale } from '../../registry/types';
 import { useConsent } from '../../ads/consent/ConsentContext';
-import { ShieldCheck, Cookie } from 'lucide-react';
+import { Cookie } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
-  currentLocale: SupportedLocale;
-  onLocaleChange: (locale: SupportedLocale) => void;
 }
 
-export const Layout: React.FC<LayoutProps> = ({ children, currentLocale, onLocaleChange }) => {
+export const Layout: React.FC<LayoutProps> = ({ children }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const { showBanner, acceptAll, declineOptional } = useConsent();
 
@@ -20,8 +17,6 @@ export const Layout: React.FC<LayoutProps> = ({ children, currentLocale, onLocal
     <div className="min-h-screen flex flex-col bg-[#070a12] text-slate-100 font-sans selection:bg-cyan-500 selection:text-white">
       {/* Platform Header */}
       <Header
-        currentLocale={currentLocale}
-        onLocaleChange={onLocaleChange}
         onToggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
         isSidebarOpen={isSidebarOpen}
       />

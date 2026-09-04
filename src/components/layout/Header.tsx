@@ -3,20 +3,15 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Search, Globe, Shield, Sparkles, Menu, X, ArrowRight } from 'lucide-react';
 import { WORKSPACES } from '../../registry/workspaces';
 import { TOOLS } from '../../registry/tools';
-import { SupportedLocale } from '../../registry/types';
-import { TRANSLATIONS } from '../../i18n/translations';
+import { useI18n } from '../../i18n/I18nContext';
 import { DynamicIcon } from '../common/DynamicIcon';
 
 interface HeaderProps {
-  currentLocale: SupportedLocale;
-  onLocaleChange: (locale: SupportedLocale) => void;
   onToggleSidebar: () => void;
   isSidebarOpen: boolean;
 }
 
 export const Header: React.FC<HeaderProps> = ({
-  currentLocale,
-  onLocaleChange,
   onToggleSidebar,
   isSidebarOpen,
 }) => {
@@ -24,8 +19,7 @@ export const Header: React.FC<HeaderProps> = ({
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
-
-  const t = TRANSLATIONS[currentLocale] || TRANSLATIONS.en;
+  const { locale, setLocale, t } = useI18n();
 
   // Filter workspaces & tools based on query
   const filteredResults = React.useMemo(() => {
@@ -86,15 +80,13 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-bold text-base tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-                  Tool<span className="text-cyan-400">Nova</span>
+                  {t.brandName}
                 </span>
                 <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-semibold">
                   PRO
                 </span>
               </div>
-              <span className="text-[10px] text-slate-400 hidden sm:inline">
-                All Your Tools. One Powerful Platform.
-              </span>
+              <span className="text-[10px] text-slate-400 hidden sm:inline">{t.tagline}</span>
             </div>
           </Link>
         </div>
@@ -122,7 +114,7 @@ export const Header: React.FC<HeaderProps> = ({
               {filteredResults.tools.length > 0 && (
                 <div className="mb-3">
                   <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-400 px-2 mb-1.5 block">
-                    Tools & Studios
+                    {t.allTools}
                   </span>
                   <div className="space-y-1">
                     {filteredResults.tools.map((tool) => (
@@ -154,7 +146,7 @@ export const Header: React.FC<HeaderProps> = ({
               {filteredResults.workspaces.length > 0 && (
                 <div>
                   <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-400 px-2 mb-1.5 block">
-                    Workspaces
+                    {t.workspaces}
                   </span>
                   <div className="space-y-1">
                     {filteredResults.workspaces.map((ws) => (
@@ -197,8 +189,8 @@ export const Header: React.FC<HeaderProps> = ({
           <div className="relative flex items-center bg-slate-900 border border-slate-800 rounded-xl px-2.5 py-1.5 text-xs text-slate-300">
             <Globe className="w-3.5 h-3.5 text-cyan-400 mr-1.5" />
             <select
-              value={currentLocale}
-              onChange={(e) => onLocaleChange(e.target.value as SupportedLocale)}
+              value={locale}
+              onChange={(e) => setLocale(e.target.value as typeof locale)}
               className="bg-transparent focus:outline-none text-slate-200 cursor-pointer text-xs font-medium"
             >
               <option value="en" className="bg-slate-900 text-slate-200">English (EN)</option>
