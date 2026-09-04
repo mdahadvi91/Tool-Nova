@@ -3,6 +3,7 @@ import JSZip from 'jszip';
 import { PDFDocument } from 'pdf-lib';
 import { Upload, Download, FileArchive, Trash2, CheckCircle, RefreshCw, FileText, Copy, Check } from 'lucide-react';
 import { downloadBlob, sanitizeFilename } from '../../utils/download';
+import { copyToClipboard } from '../../utils/clipboard';
 
 interface ImageFileItem {
   id: string;
@@ -166,7 +167,7 @@ export const UniversalImageConverter: React.FC = () => {
     const reader = new FileReader();
     reader.onload = () => {
       if (typeof reader.result === 'string') {
-        navigator.clipboard.writeText(reader.result);
+        void copyToClipboard(reader.result);
         setCopiedBase64Id(item.id);
         setTimeout(() => setCopiedBase64Id(null), 2000);
       }

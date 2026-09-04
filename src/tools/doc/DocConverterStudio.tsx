@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 import { FileText, Copy, Download, Check, Sparkles, RefreshCw, Code } from 'lucide-react';
 import { downloadText } from '../../utils/download';
 
@@ -22,7 +23,7 @@ export const DocConverterStudio: React.FC = () => {
   );
 
   const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

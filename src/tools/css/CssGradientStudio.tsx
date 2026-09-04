@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Palette, Copy, Check, Layers, Sparkles, ShieldCheck } from 'lucide-react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const CssGradientStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'gradient' | 'shadow' | 'glass'>('gradient');
@@ -26,7 +27,7 @@ export const CssGradientStudio: React.FC = () => {
   const [glassBorder, setGlassBorder] = useState(0.3);
 
   const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

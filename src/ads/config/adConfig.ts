@@ -4,7 +4,9 @@ export const AD_PROVIDERS_CONFIG: Record<string, AdProviderConfig> = {
   adsense: {
     id: 'adsense',
     name: 'Google AdSense',
-    enabled: true,
+    // Ads stay disabled until a real publisher client ID is configured.
+    // Never render placeholder ad units in production.
+    enabled: false,
     killSwitch: false,
     clientId: 'ca-pub-0000000000000000', // Configurable via .env
     slotIds: {

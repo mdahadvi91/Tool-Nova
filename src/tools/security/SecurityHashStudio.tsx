@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Shield, Key, Lock, Copy, Check, RefreshCw } from 'lucide-react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const SecurityHashStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'hash' | 'base64' | 'password' | 'uuid'>('hash');
@@ -29,7 +30,7 @@ export const SecurityHashStudio: React.FC = () => {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   const copyToClipboard = (text: string, key: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopiedKey(key);
     setTimeout(() => setCopiedKey(null), 2000);
   };

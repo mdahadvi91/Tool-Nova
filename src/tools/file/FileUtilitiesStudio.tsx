@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 import { FileCode, Upload, ShieldCheck, Copy, Check, FileCheck, Binary } from 'lucide-react';
 
 interface FileHashResult {
@@ -19,7 +20,7 @@ export const FileUtilitiesStudio: React.FC = () => {
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
 
   const copyToClipboard = (text: string, key: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopiedKey(key);
     setTimeout(() => setCopiedKey(null), 2000);
   };

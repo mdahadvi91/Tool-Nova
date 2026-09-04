@@ -12,7 +12,12 @@ export class MonetagAdapter implements AdProviderAdapter {
   }
 
   isAvailable(): boolean {
-    return Boolean(this.config?.enabled && !this.config?.killSwitch);
+    return Boolean(
+      this.config?.enabled &&
+      !this.config?.killSwitch &&
+      this.config.siteId &&
+      !this.config.siteId.includes('0000'),
+    );
   }
 
   async render(container: HTMLElement, slotConfig: AdSlotConfig): Promise<boolean> {

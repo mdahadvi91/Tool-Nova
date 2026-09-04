@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { Check, Copy, Download, RefreshCw, ShieldCheck, Sparkles } from 'lucide-react';
 import { downloadText } from '../../utils/download';
+import { copyToClipboard } from '../../utils/clipboard';
 
 interface UtilityToolsStudioProps {
   toolId: string;
@@ -187,10 +188,11 @@ export const UtilityToolsStudio: React.FC<UtilityToolsStudioProps> = ({ toolId }
   };
 
   const copyResult = async () => {
-    if (!result || !navigator.clipboard) return;
-    await navigator.clipboard.writeText(result);
-    setCopied(true);
-    window.setTimeout(() => setCopied(false), 1600);
+    if (!result) return;
+    if (await copyToClipboard(result)) {
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 1600);
+    }
   };
 
   return (

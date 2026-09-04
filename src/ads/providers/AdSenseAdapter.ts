@@ -14,7 +14,12 @@ export class AdSenseAdapter implements AdProviderAdapter {
   }
 
   isAvailable(): boolean {
-    return Boolean(this.config?.enabled && !this.config?.killSwitch);
+    return Boolean(
+      this.config?.enabled &&
+      !this.config?.killSwitch &&
+      this.config.clientId &&
+      !this.config.clientId.includes('0000000000000000'),
+    );
   }
 
   async render(container: HTMLElement, slotConfig: AdSlotConfig): Promise<boolean> {

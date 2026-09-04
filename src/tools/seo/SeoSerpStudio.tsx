@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, Globe, Share2, Copy, Check, Download, ShieldCheck, Smartphone, Monitor } from 'lucide-react';
 import { downloadText } from '../../utils/download';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const SeoSerpStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'serp' | 'opengraph' | 'robotstxt'>('serp');
@@ -22,7 +23,7 @@ export const SeoSerpStudio: React.FC = () => {
   const [copied, setCopied] = useState(false);
 
   const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

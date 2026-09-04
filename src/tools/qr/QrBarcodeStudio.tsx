@@ -3,12 +3,16 @@ import QRCode from 'qrcode';
 import JsBarcode from 'jsbarcode';
 import { Download, Copy, RefreshCw, Upload, Check, ShieldCheck } from 'lucide-react';
 import { downloadCanvas, downloadText } from '../../utils/download';
+import { copyToClipboard } from '../../utils/clipboard';
 
-export const QrBarcodeStudio: React.FC<{ initialMode?: 'qr' | 'barcode' | 'photo-badge' }> = ({ initialMode = 'qr' }) => {
+export const QrBarcodeStudio: React.FC<{
+  initialMode?: 'qr' | 'barcode' | 'photo-badge';
+  initialPayloadType?: 'url' | 'text' | 'wifi' | 'email' | 'phone' | 'vcard';
+}> = ({ initialMode = 'qr', initialPayloadType = 'url' }) => {
   const [activeTab, setActiveTab] = useState<'qr' | 'barcode' | 'photo-badge'>(initialMode);
   
   // QR State
-  const [payloadType, setPayloadType] = useState<'url' | 'text' | 'wifi' | 'email' | 'phone' | 'vcard'>('url');
+  const [payloadType, setPayloadType] = useState<'url' | 'text' | 'wifi' | 'email' | 'phone' | 'vcard'>(initialPayloadType);
   const [urlInput, setUrlInput] = useState('https://toolnova.app');
   const [textInput, setTextInput] = useState('Welcome to ToolNova');
   const [wifiSsid, setWifiSsid] = useState('MyHomeWiFi');
@@ -229,7 +233,7 @@ export const QrBarcodeStudio: React.FC<{ initialMode?: 'qr' | 'barcode' | 'photo
   };
 
   const copyPayload = () => {
-    navigator.clipboard.writeText(getQrPayload());
+    void copyToClipboard(getQrPayload());
     setCopySuccess(true);
     setTimeout(() => setCopySuccess(false), 2000);
   };

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Code, Check, Copy, Download, RefreshCw, AlertCircle, FileSpreadsheet, Upload } from 'lucide-react';
 import { downloadText } from '../../utils/download';
+import { copyToClipboard } from '../../utils/clipboard';
 
 export const JsonStudio: React.FC = () => {
   const [inputJson, setInputJson] = useState(
@@ -91,7 +92,7 @@ export const JsonStudio: React.FC = () => {
 
   const copyOutput = () => {
     const textToCopy = outputResult || inputJson;
-    navigator.clipboard.writeText(textToCopy);
+    void copyToClipboard(textToCopy);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

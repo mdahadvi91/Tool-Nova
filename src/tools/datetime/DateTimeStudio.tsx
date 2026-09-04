@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { Calendar, Clock, Globe, Copy, Check, ShieldCheck } from 'lucide-react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const DateTimeStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'age' | 'business-days' | 'timestamp' | 'world-clock'>('age');
@@ -80,7 +81,7 @@ export const DateTimeStudio: React.FC = () => {
   }, [startDate, endDate]);
 
   const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

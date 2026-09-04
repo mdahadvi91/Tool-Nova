@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Palette, Copy, Check, Eye, Sparkles } from 'lucide-react';
+import { copyToClipboard } from '../../utils/clipboard';
 
 export const ColorStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'converter' | 'contrast' | 'gradient'>('contrast');
@@ -16,7 +17,7 @@ export const ColorStudio: React.FC = () => {
   const [copiedText, setCopiedText] = useState<string | null>(null);
 
   const copy = (text: string, label: string) => {
-    navigator.clipboard.writeText(text);
+    void copyToClipboard(text);
     setCopiedText(label);
     setTimeout(() => setCopiedText(null), 2000);
   };

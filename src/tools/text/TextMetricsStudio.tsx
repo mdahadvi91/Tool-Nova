@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Type, Copy, Check, Clock, Mic, Sparkles } from 'lucide-react';
+import { copyToClipboard } from '../../utils/clipboard';
 
 export const TextMetricsStudio: React.FC = () => {
   const [text, setText] = useState(
@@ -72,7 +73,7 @@ export const TextMetricsStudio: React.FC = () => {
   };
 
   const copyText = () => {
-    navigator.clipboard.writeText(text);
+    void copyToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

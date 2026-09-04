@@ -1,5 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { Sparkles, Copy, Check, Terminal, Layers, RefreshCw } from 'lucide-react';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const PromptEngineeringStudio: React.FC = () => {
   const [role, setRole] = useState('Senior Staff Systems Architect');
@@ -33,7 +34,7 @@ export const PromptEngineeringStudio: React.FC = () => {
   }, [compositePrompt]);
 
   const copyToClipboard = () => {
-    navigator.clipboard.writeText(compositePrompt);
+    void copyTextToClipboard(compositePrompt);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };

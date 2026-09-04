@@ -133,8 +133,11 @@ const ToolContent: React.FC<ToolRendererProps> = ({ tool }) => {
     case 'photo-qr-badge':
       return <QrBarcodeStudio initialMode="photo-badge" />;
     case 'wifi-qr-gen':
+      return <QrBarcodeStudio initialPayloadType="wifi" />;
     case 'vcard-qr-gen':
+      return <QrBarcodeStudio initialPayloadType="vcard" />;
     case 'barcode-gen':
+      return <QrBarcodeStudio initialMode="barcode" />;
     case 'bulk-qr-gen':
       return <QrBarcodeStudio initialMode="qr" />;
 
@@ -307,10 +310,11 @@ const ToolContent: React.FC<ToolRendererProps> = ({ tool }) => {
     case 'robots-txt-builder':
       return <SeoSerpStudio />;
 
-    // 26 & 29 Color & Design
+    // 26 Color & Design
     case 'color-studio':
     case 'wcag-contrast-checker':
     case 'color-palette-generator':
+      return <ColorStudio />;
     case 'css-gradient-builder':
     case 'css-gradient-studio':
       return <CssGradientStudio />;

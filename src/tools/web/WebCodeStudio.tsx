@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Code, Copy, Check, Download, Sparkles, Eye, ShieldCheck } from 'lucide-react';
 import { downloadText } from '../../utils/download';
+import { copyToClipboard as copyTextToClipboard } from '../../utils/clipboard';
 
 export const WebCodeStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'html' | 'css' | 'svg'>('html');
@@ -22,7 +23,7 @@ export const WebCodeStudio: React.FC = () => {
   );
 
   const copyToClipboard = (text: string) => {
-    navigator.clipboard.writeText(text);
+    void copyTextToClipboard(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
