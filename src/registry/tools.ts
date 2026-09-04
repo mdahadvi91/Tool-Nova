@@ -601,6 +601,514 @@ export const TOOLS: ToolDefinition[] = [
         { question: 'How is digital data converted?', answer: 'We follow standard binary prefix (1024 bytes = 1 KB) as well as decimal standards.' }
       ]
     }
+  },
+
+  // 06 Document Converter Tools
+  {
+    id: 'markdown-to-html',
+    slug: 'markdown-to-html',
+    name: 'Markdown & Document Converter Studio',
+    shortDescription: 'Convert between Markdown, HTML, and sanitized plain text with instant live rendering, syntax highlighting, and file download.',
+    workspaceId: '06-doc-converter',
+    route: '/tool/markdown-to-html',
+    iconName: 'FileCode',
+    category: 'Markdown',
+    tags: ['markdown', 'html', 'converter', 'document'],
+    keywords: ['markdown to html', 'html to markdown', 'md converter', 'document converter'],
+    status: 'active',
+    isPopular: true,
+    isFeatured: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Markdown to HTML & Document Converter — Free Online Studio',
+      h1: 'Markdown to HTML Converter Studio',
+      metaDescription: 'Convert Markdown to HTML with live preview, GitHub-flavored styling, and one-click file download. 100% private in-browser tool.',
+      howItWorks: [
+        { step: 1, title: 'Input Content', desc: 'Type or paste Markdown or HTML in the left editor pane.' },
+        { step: 2, title: 'Choose Mode', desc: 'Select Markdown to HTML or HTML to Markdown.' },
+        { step: 3, title: 'Export', desc: 'Copy formatted output or download file.' }
+      ],
+      features: ['Bidirectional Markdown <-> HTML conversion', 'XSS-sanitized live rendering preview', 'One-click copy and export'],
+      tips: ['Supports standard GitHub Flavored Markdown including tables, task lists, and code blocks.'],
+      faqs: [
+        { question: 'Is my document private?', answer: 'Yes! All parsing runs locally in your browser with zero server transmission.' }
+      ]
+    }
+  },
+
+  // 07 File Utilities
+  {
+    id: 'file-checksum-calc',
+    slug: 'file-checksum-calculator',
+    name: 'File Checksum & Magic Bytes Inspector',
+    shortDescription: 'Compute SHA-256 and MD5 cryptographic checksums for any local file and inspect real binary magic bytes signatures.',
+    workspaceId: '07-file-utilities',
+    route: '/tool/file-checksum-calculator',
+    iconName: 'Archive',
+    category: 'Checksums',
+    tags: ['checksum', 'sha256', 'hash', 'magic bytes', 'mime'],
+    keywords: ['file checksum calculator', 'file hash', 'sha256 file hash', 'magic bytes'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'File Checksum & Magic Bytes Inspector — Web Crypto Hash Tool',
+      h1: 'File Checksum & Magic Byte Studio',
+      metaDescription: 'Calculate hardware-accelerated SHA-256 file checksums and verify binary magic bytes signatures locally in your browser.',
+      howItWorks: [
+        { step: 1, title: 'Select File', desc: 'Drop any file up to 2GB to inspect.' },
+        { step: 2, title: 'Compute Checksum', desc: 'Web Crypto API computes exact cryptographic hash.' },
+        { step: 3, title: 'Inspect Magic Bytes', desc: 'View initial hex header bytes and verified MIME format.' }
+      ],
+      features: ['Hardware-accelerated Web Crypto API', 'Magic byte binary header inspection', 'No file uploads required'],
+      tips: ['Use SHA-256 checksums to verify downloaded installers against publisher hash signatures.'],
+      faqs: [
+        { question: 'Does the file upload to a server?', answer: 'No! The file is read chunk-by-chunk in local browser memory.' }
+      ]
+    }
+  },
+
+  // 08 Video Tools
+  {
+    id: 'video-frame-grabber',
+    slug: 'video-frame-grabber',
+    name: 'Video Frame Grabber & Aspect Studio',
+    shortDescription: 'Extract uncompressed full-resolution still frames from MP4, WebM, and MOV videos with frame-by-frame precision and aspect ratio calculation.',
+    workspaceId: '08-video-tools',
+    route: '/tool/video-frame-grabber',
+    iconName: 'Video',
+    category: 'Capture',
+    tags: ['video', 'frame grabber', 'aspect ratio', 'video frame'],
+    keywords: ['video frame grabber', 'extract frame from video', 'video to image', 'aspect ratio'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Video Frame Grabber & Aspect Studio — High-Res Frame Capture',
+      h1: 'Video Frame Grabber & Aspect Studio',
+      metaDescription: 'Extract crystal-clear still photos from video files frame-by-frame locally in your browser. Download high-res PNG stills with zero quality loss.',
+      howItWorks: [
+        { step: 1, title: 'Load Video', desc: 'Select any local video file (MP4, WebM, MOV).' },
+        { step: 2, title: 'Seek Timestamp', desc: 'Use slider or frame step buttons (1/30s) to find target frame.' },
+        { step: 3, title: 'Capture & Export', desc: 'Grab full-resolution frame and download PNG.' }
+      ],
+      features: ['Pixel-perfect canvas frame extraction', '1/30th second frame stepping', 'Aspect ratio and dimension inspector'],
+      tips: ['Use frame-stepping to capture the exact split second of an action shot without motion blur.'],
+      faqs: [
+        { question: 'Is video compressed when extracting frames?', answer: 'No! The frame is drawn directly from the HTML5 video element at native pixel dimensions.' }
+      ]
+    }
+  },
+
+  // 09 Audio Tools
+  {
+    id: 'audio-tone-generator',
+    slug: 'audio-tone-generator',
+    name: 'Web Audio Synthesizer & Tone Studio',
+    shortDescription: 'Generate pure frequency audio tones and calibrated binaural beats (Theta, Alpha, Beta) using the Web Audio API.',
+    workspaceId: '09-audio-tools',
+    route: '/tool/audio-tone-generator',
+    iconName: 'Volume2',
+    category: 'Synthesizer',
+    tags: ['audio', 'tone generator', 'frequency', 'binaural beats', 'synth'],
+    keywords: ['tone generator', 'frequency generator', 'binaural beats generator', 'sound test'],
+    status: 'active',
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Audio Tone Generator & Binaural Beats — Web Audio API Studio',
+      h1: 'Audio Tone Generator & Synthesizer',
+      metaDescription: 'Generate precise acoustic frequencies from 20 Hz to 20 kHz with Sine, Square, and Sawtooth waveforms and stereo binaural beats.',
+      howItWorks: [
+        { step: 1, title: 'Select Frequency', desc: 'Choose target pitch in Hz or pick musical presets.' },
+        { step: 2, title: 'Choose Waveform', desc: 'Pick Sine, Square, Sawtooth, or Triangle shape.' },
+        { step: 3, title: 'Play Tone', desc: 'Web Audio API synthesizes crystal-clear audio in real time.' }
+      ],
+      features: ['Pure Web Audio API oscillator synthesis', 'Binaural beats stereo panner engine', 'Musical note presets (A440, Solfeggio)'],
+      tips: ['Stereo headphones are required for binaural beats to generate the target brainwave synchronization.'],
+      faqs: [
+        { question: 'What is a 440 Hz tone?', answer: '440 Hz is the standard orchestral pitch reference for the note A above middle C (A4).' }
+      ]
+    }
+  },
+
+  // 10 OCR & Scanner
+  {
+    id: 'document-scanner-prep',
+    slug: 'document-scanner-prep',
+    name: 'Document & Receipt Scanner Studio',
+    shortDescription: 'Clean paper camera photos, boost ink contrast, remove background shadows, and export crisp B&W documents or PDF files.',
+    workspaceId: '10-ocr-scanner',
+    route: '/tool/document-scanner-prep',
+    iconName: 'Scan',
+    category: 'Scanner',
+    tags: ['document scanner', 'receipt scanner', 'contrast boost', 'scan to pdf'],
+    keywords: ['document scanner online', 'receipt cleaner', 'scan to pdf', 'photo to document'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Document & Receipt Scanner Studio — Clean & Enhance Scans',
+      h1: 'Document & Receipt Scanner Studio',
+      metaDescription: 'Turn phone photos of papers and receipts into sharp black & white scanned documents. Export clean PNG or multi-page PDF.',
+      howItWorks: [
+        { step: 1, title: 'Upload Photo', desc: 'Take or upload a photo of a document, invoice, or receipt.' },
+        { step: 2, title: 'Apply Filter', desc: 'Choose Crisp B&W, Paper Boost, or Grayscale with custom threshold.' },
+        { step: 3, title: 'Export', desc: 'Download enhanced document image or export as PDF.' }
+      ],
+      features: ['High-contrast Otsu threshold filter', '90-degree rotation adjustment', 'Direct PDF export using pdf-lib'],
+      tips: ['Position documents against a contrasting background under even lighting for best results.'],
+      faqs: [
+        { question: 'Is OCR performed on a remote server?', answer: 'No! All pixel thresholding and PDF bundling run 100% locally on your device.' }
+      ]
+    }
+  },
+
+  // 12 AI Text Tools
+  {
+    id: 'readability-score-calc',
+    slug: 'readability-score-calculator',
+    name: 'Deterministic Text Readability & Linguistic Analyzer',
+    shortDescription: 'Evaluate Flesch Reading Ease, Flesch-Kincaid Grade Level, Gunning Fog, and Coleman-Liau indexes via client-side algorithms.',
+    workspaceId: '12-ai-text',
+    route: '/tool/readability-score-calculator',
+    iconName: 'Sparkles',
+    category: 'Readability',
+    tags: ['readability', 'flesch kincaid', 'gunning fog', 'linguistics'],
+    keywords: ['readability calculator', 'flesch reading ease', 'grade level calculator', 'text readability'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Text Readability Score Calculator — Flesch-Kincaid & Gunning Fog',
+      h1: 'Text Readability & Linguistic Analyzer',
+      metaDescription: 'Calculate Flesch Reading Ease, Flesch-Kincaid Grade Level, and Gunning Fog index with deterministic linguistic algorithms.',
+      howItWorks: [
+        { step: 1, title: 'Paste Text', desc: 'Paste article, essay, or copy into the editor.' },
+        { step: 2, title: 'Analyze', desc: 'Linguistic algorithm counts syllables, words, and complex sentences.' },
+        { step: 3, title: 'Review Grade', desc: 'View Flesch score, school grade level, and reading ease interpretation.' }
+      ],
+      features: ['Flesch Reading Ease (0-100 scale)', 'Flesch-Kincaid Grade Level', 'Gunning Fog and Coleman-Liau indexes'],
+      tips: ['Target a Flesch score of 60-70 for general public website content.'],
+      faqs: [
+        { question: 'Are AI models used to score readability?', answer: 'No. Readability scoring follows strict, standardized mathematical formulas.' }
+      ]
+    }
+  },
+
+  // 13 AI Prompt Engineering
+  {
+    id: 'prompt-builder-studio',
+    slug: 'prompt-builder-studio',
+    name: 'Structured System Prompt Architect & Token Estimator',
+    shortDescription: 'Architect modular LLM system instructions with explicit role boundaries, negative constraints, and live token expenditure estimation.',
+    workspaceId: '13-ai-prompt',
+    route: '/tool/prompt-builder-studio',
+    iconName: 'Terminal',
+    category: 'Prompt Engineering',
+    tags: ['prompt builder', 'system prompt', 'llm', 'token estimator'],
+    keywords: ['system prompt generator', 'prompt builder', 'token counter', 'prompt architect'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Structured System Prompt Architect & Token Estimator — LLM Studio',
+      h1: 'Structured System Prompt Architect',
+      metaDescription: 'Build structured system instructions for AI models with role personas, constraints, context variables, and live token estimates.',
+      howItWorks: [
+        { step: 1, title: 'Define Persona', desc: 'Set role, tone, and operational boundaries.' },
+        { step: 2, title: 'Set Constraints', desc: 'Add strict negative rules and output format requirements.' },
+        { step: 3, title: 'Copy Prompt', desc: 'One-click copy the compiled prompt ready for API or playground.' }
+      ],
+      features: ['Structured role-objective-constraint schema', 'Live BPE token count estimator', 'Context variable parameter injection'],
+      tips: ['Explicit negative constraints ("Do not...") significantly reduce hallucination in production LLMs.'],
+      faqs: [
+        { question: 'How is token count estimated?', answer: 'We use the standard 4-character-per-token English linguistic heuristic.' }
+      ]
+    }
+  },
+
+  // 15 Business Calculators
+  {
+    id: 'margin-markup-calc',
+    slug: 'margin-markup-calculator',
+    name: 'Business & Unit Economics Studio',
+    shortDescription: 'Calculate gross profit margins, markups, break-even unit sales volume, and customer acquisition cost to LTV ratios.',
+    workspaceId: '15-business-calc',
+    route: '/tool/margin-markup-calculator',
+    iconName: 'TrendingUp',
+    category: 'Profitability',
+    tags: ['margin calculator', 'markup', 'breakeven', 'cac ltv', 'business'],
+    keywords: ['profit margin calculator', 'markup calculator', 'break even calculator', 'cac ltv ratio'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Business Calculators — Profit Margin, Markup & Break-Even Studio',
+      h1: 'Business & Unit Economics Studio',
+      metaDescription: 'Calculate gross profit margins, cost markups, break-even unit sales, and SaaS LTV:CAC unit economics with financial precision.',
+      howItWorks: [
+        { step: 1, title: 'Select Tool', desc: 'Choose Margin/Markup, Break-Even, or CAC:LTV ratio.' },
+        { step: 2, title: 'Enter Numbers', desc: 'Provide cost of goods, selling price, and fixed expenses.' },
+        { step: 3, title: 'Analyze Metrics', desc: 'Inspect profit percentages and sustainable health benchmarks.' }
+      ],
+      features: ['Instant margin vs markup dual synchronization', 'Break-even unit volume and revenue formula', 'SaaS LTV to CAC health ratio benchmarks'],
+      tips: ['Remember: Margin is calculated on selling price, while Markup is calculated on cost price.'],
+      faqs: [
+        { question: 'What is a good LTV:CAC ratio?', answer: 'A 3:1 (3x) ratio is generally considered the gold standard benchmark for sustainable businesses.' }
+      ]
+    }
+  },
+
+  // 16 Health & Fitness
+  {
+    id: 'bmi-calculator',
+    slug: 'bmi-calculator',
+    name: 'Health & Caloric Fitness Calculator Studio',
+    shortDescription: 'Calculate accurate Body Mass Index (BMI), Mifflin-St Jeor Basal Metabolic Rate (BMR), TDEE calories, and hydration intake.',
+    workspaceId: '16-health-fitness',
+    route: '/tool/bmi-calculator',
+    iconName: 'Activity',
+    category: 'Body Metrics',
+    tags: ['bmi calculator', 'bmr', 'tdee', 'calorie calculator', 'health'],
+    keywords: ['bmi calculator', 'bmr calculator', 'tdee calculator', 'daily calories'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'BMI, BMR & TDEE Health Calculator — Metric & Imperial Studio',
+      h1: 'Health & Caloric Fitness Calculator Studio',
+      metaDescription: 'Calculate accurate BMI with WHO classifications, Mifflin-St Jeor BMR, and total daily energy expenditure (TDEE) calories.',
+      howItWorks: [
+        { step: 1, title: 'Enter Demographics', desc: 'Select gender, age, height, and weight in metric or imperial.' },
+        { step: 2, title: 'Set Activity', desc: 'Choose your weekly exercise level.' },
+        { step: 3, title: 'View Metrics', desc: 'Check BMI, maintenance calories (TDEE), and daily water needs.' }
+      ],
+      features: ['Mifflin-St Jeor energy expenditure formula', 'WHO international BMI classifications', 'Metric and Imperial unit support'],
+      tips: ['To lose roughly 1 lb of fat per week, aim for a 500 kcal deficit below your TDEE.'],
+      faqs: [
+        { question: 'What is BMR vs TDEE?', answer: 'BMR is calories burned at complete rest; TDEE includes movement, digestion, and workouts.' }
+      ]
+    }
+  },
+
+  // 17 Date & Time
+  {
+    id: 'age-calculator-exact',
+    slug: 'age-calculator-exact',
+    name: 'Date, Time & Working Days Studio',
+    shortDescription: 'Calculate exact chronological age in years, months, and days, count business working days between dates, and convert Unix epoch timestamps.',
+    workspaceId: '17-date-time',
+    route: '/tool/age-calculator-exact',
+    iconName: 'Clock',
+    category: 'Calculators',
+    tags: ['age calculator', 'business days', 'working days', 'unix timestamp'],
+    keywords: ['age calculator', 'working days calculator', 'business days calculator', 'epoch timestamp'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Exact Age, Business Days & Epoch Timestamp Calculator Studio',
+      h1: 'Date, Time & Working Days Studio',
+      metaDescription: 'Calculate exact age down to the day, calculate business working days excluding weekends, and convert Unix epoch timestamps.',
+      howItWorks: [
+        { step: 1, title: 'Select Tool', desc: 'Choose Chronological Age, Business Days, or Epoch Timestamp.' },
+        { step: 2, title: 'Input Dates', desc: 'Enter birthdate, project timeline range, or epoch number.' },
+        { step: 3, title: 'Get Result', desc: 'View precise day counts, next birthday, or converted ISO date.' }
+      ],
+      features: ['Exact year/month/day calendar calculation', 'Business working day counter excluding Saturdays & Sundays', 'Live global world time clocks'],
+      tips: ['The business day counter is essential for calculating contractual deadlines and SLAs.'],
+      faqs: [
+        { question: 'What is a Unix epoch timestamp?', answer: 'The number of seconds that have elapsed since January 1, 1970 00:00:00 UTC.' }
+      ]
+    }
+  },
+
+  // 19 Currency & Money
+  {
+    id: 'currency-converter-studio',
+    slug: 'currency-converter-studio',
+    name: 'Currency, Tip & Cash Denomination Studio',
+    shortDescription: 'Currency exchange calculations with reference rates, restaurant tip and bill splitting, and physical cash denomination counting.',
+    workspaceId: '19-currency-money',
+    route: '/tool/currency-converter-studio',
+    iconName: 'Coins',
+    category: 'Exchange Rates',
+    tags: ['currency converter', 'tip calculator', 'split bill', 'cash counter'],
+    keywords: ['currency converter', 'tip calculator', 'split bill calculator', 'cash denomination counter'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Currency Exchange, Tip & Cash Denomination Studio — Free Converter',
+      h1: 'Currency, Tip & Cash Denomination Studio',
+      metaDescription: 'Convert currencies with transparent reference rates and custom overrides, calculate restaurant tips, split bills, and tally cash register bills.',
+      howItWorks: [
+        { step: 1, title: 'Choose Mode', desc: 'Select Currency Exchange, Tip & Bill Splitter, or Cash Counter.' },
+        { step: 2, title: 'Enter Values', desc: 'Enter money amounts, currencies, gratuity percentages, or bill quantities.' },
+        { step: 3, title: 'Get Breakdown', desc: 'View converted amount or per-person bill share.' }
+      ],
+      features: ['Transparent reference baseline exchange rates with custom rate override', 'Tip percentage presets with per-person breakdown', 'Cash register denomination tally'],
+      tips: ['Enter a custom rate override if you have an exact bank or exchange booth rate.'],
+      faqs: [
+        { question: 'Are exchange rates guaranteed real-time?', answer: 'Rates shown are static reference rates. Use the Custom Rate Override field for exact real-time precision.' }
+      ]
+    }
+  },
+
+  // 22 Web Code Tools
+  {
+    id: 'html-formatter-minifier',
+    slug: 'html-formatter-minifier',
+    name: 'Web Code Minifier, Formatter & SVG Studio',
+    shortDescription: 'Minify and optimize HTML, CSS, and clean raw SVG markup with live vector rendering and byte savings calculation.',
+    workspaceId: '22-web-code',
+    route: '/tool/html-formatter-minifier',
+    iconName: 'Layers',
+    category: 'HTML',
+    tags: ['html minifier', 'css minifier', 'svg cleaner', 'web code'],
+    keywords: ['html minifier', 'css minifier', 'svg optimizer', 'web code cleaner'],
+    status: 'active',
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'HTML & CSS Minifier, SVG Cleaner Studio — Web Optimization',
+      h1: 'Web Code Minifier & SVG Studio',
+      metaDescription: 'Compress HTML, minify CSS stylesheets, and clean redundant SVG vector markup with instant live rendering preview.',
+      howItWorks: [
+        { step: 1, title: 'Paste Code', desc: 'Paste HTML, CSS, or SVG code into the editor.' },
+        { step: 2, title: 'Minify', desc: 'Whitespace, comments, and redundant characters are stripped.' },
+        { step: 3, title: 'Export', desc: 'Copy minified code or download optimized asset.' }
+      ],
+      features: ['Percentage file size savings indicator', 'Live rendered SVG preview', 'Clean copyable code outputs'],
+      tips: ['Minifying HTML and CSS reduces network payload and improves Core Web Vitals.'],
+      faqs: [
+        { question: 'Does minification break code execution?', answer: 'No. Minification strictly removes non-functional whitespace and comments while preserving syntax logic.' }
+      ]
+    }
+  },
+
+  // 24 SEO Tools
+  {
+    id: 'serp-meta-previewer',
+    slug: 'serp-meta-previewer',
+    name: 'SEO SERP & OpenGraph Social Preview Studio',
+    shortDescription: 'Simulate Google desktop and mobile search engine snippets, preview social media Open Graph cards, and generate clean robots.txt files.',
+    workspaceId: '24-seo-tools',
+    route: '/tool/serp-meta-previewer',
+    iconName: 'Search',
+    category: 'SERP Preview',
+    tags: ['seo', 'serp preview', 'opengraph', 'robots.txt', 'meta tags'],
+    keywords: ['serp preview tool', 'google search simulator', 'open graph preview', 'robots txt generator'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'Google SERP Preview & OpenGraph Social Card Studio — SEO Tools',
+      h1: 'SEO SERP & OpenGraph Social Preview Studio',
+      metaDescription: 'Preview how your website appears on Google search results and social cards. Monitor title and description character lengths.',
+      howItWorks: [
+        { step: 1, title: 'Enter Metadata', desc: 'Type your page title, meta description, and URL.' },
+        { step: 2, title: 'Review Snippet', desc: 'Check Google desktop/mobile simulation and length warnings.' },
+        { step: 3, title: 'Test Social Card', desc: 'Preview Twitter, LinkedIn, and Discord card appearance.' }
+      ],
+      features: ['Google desktop and mobile simulated snippets', 'Character length meters (60 chars for title, 160 for description)', 'Interactive robots.txt generator'],
+      tips: ['Keep page titles under 60 characters to avoid truncation by Google in search results.'],
+      faqs: [
+        { question: 'Why is meta description length important?', answer: 'Google typically truncates descriptions longer than 155-160 characters on desktop displays.' }
+      ]
+    }
+  },
+
+  // 26 & 29 Color & CSS Design
+  {
+    id: 'css-gradient-builder',
+    slug: 'css-gradient-builder',
+    name: 'CSS Visual Effects, Gradient & Glass Studio',
+    shortDescription: 'Design multi-stop linear and radial CSS gradients, layered drop shadows, and modern frosted glassmorphism cards with one-click CSS export.',
+    workspaceId: '26-color-design',
+    route: '/tool/css-gradient-builder',
+    iconName: 'Palette',
+    category: 'Gradients',
+    tags: ['css gradient', 'box shadow', 'glassmorphism', 'css generator'],
+    keywords: ['css gradient generator', 'box shadow generator', 'glassmorphism generator', 'css studio'],
+    status: 'active',
+    isPopular: true,
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'CSS Gradient, Box Shadow & Glassmorphism Studio — CSS Generator',
+      h1: 'CSS Visual Effects & Gradient Studio',
+      metaDescription: 'Generate beautiful CSS gradients, layered box shadows, and frosted glassmorphism styles with live interactive preview and instant copy.',
+      howItWorks: [
+        { step: 1, title: 'Choose Effect', desc: 'Select CSS Gradients, Box Shadows, or Glassmorphism.' },
+        { step: 2, title: 'Customize Visuals', desc: 'Adjust color stops, angle, blur, and opacity.' },
+        { step: 3, title: 'Copy CSS', desc: 'One-click copy the generated CSS rules directly into your stylesheet.' }
+      ],
+      features: ['Linear, radial, and conic gradient generators', 'Complex layered box shadow controls', 'Modern backdrop-filter glassmorphism generator'],
+      tips: ['Combine subtle backdrop-blur with low-opacity white backgrounds for modern UI cards.'],
+      faqs: [
+        { question: 'Is the generated CSS cross-browser compatible?', answer: 'Yes! Standard vendor-prefixed CSS rules are generated for maximum browser compatibility.' }
+      ]
+    }
+  },
+
+  // 30 Education & Student Tools
+  {
+    id: 'gpa-calculator',
+    slug: 'gpa-calculator',
+    name: 'STEM Mathematics & Study Flashcards Studio',
+    shortDescription: 'Solve quadratic polynomial equations, compute step-by-step fraction reductions, and study with interactive digital flashcards.',
+    workspaceId: '30-education-student',
+    route: '/tool/gpa-calculator',
+    iconName: 'GraduationCap',
+    category: 'Grades',
+    tags: ['quadratic solver', 'fractions', 'flashcards', 'math study'],
+    keywords: ['quadratic equation solver', 'fraction reducer', 'study flashcards', 'math tool'],
+    status: 'active',
+    clientOnly: true,
+    requiresBackend: false,
+    requiresAI: false,
+    seo: {
+      title: 'STEM Mathematics & Study Flashcards Studio — Quadratic & Fraction Tool',
+      h1: 'STEM Mathematics & Study Flashcards Studio',
+      metaDescription: 'Solve quadratic equations with discriminant analysis, simplify fractions with step-by-step reduction, and study flashcards.',
+      howItWorks: [
+        { step: 1, title: 'Select Tool', desc: 'Choose Quadratic Solver, Fraction Reducer, or Flashcards.' },
+        { step: 2, title: 'Input Problem', desc: 'Enter quadratic coefficients (a, b, c) or fraction numbers.' },
+        { step: 3, title: 'View Steps', desc: 'Inspect discriminant, roots, or simplified fraction values.' }
+      ],
+      features: ['Quadratic equation solver with real and complex roots', 'Fraction arithmetic (+, -, *, /) with GCD reduction', 'Interactive click-to-flip study flashcards'],
+      tips: ['If the discriminant (b² - 4ac) is negative, the quadratic has two complex conjugate roots.'],
+      faqs: [
+        { question: 'Can I add my own flashcard questions?', answer: 'Yes, study flashcards run locally in your session.' }
+      ]
+    }
   }
 ];
 

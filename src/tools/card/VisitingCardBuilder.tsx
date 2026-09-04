@@ -7,11 +7,11 @@ export const VisitingCardBuilder: React.FC = () => {
   // Card Content
   const [fullName, setFullName] = useState('Alex Rivera');
   const [jobTitle, setJobTitle] = useState('Chief Technology Officer');
-  const [companyName, setCompanyName] = useState('Zenith Dynamics Inc.');
+  const [companyName, setCompanyName] = useState('Nova Dynamics Inc.');
   const [tagline, setTagline] = useState('Building the Future of Autonomous Systems');
   const [phone, setPhone] = useState('+1 (555) 349-2810');
-  const [email, setEmail] = useState('alex.rivera@zenithdynamics.com');
-  const [website, setWebsite] = useState('www.zenithdynamics.com');
+  const [email, setEmail] = useState('alex.rivera@novadynamics.com');
+  const [website, setWebsite] = useState('www.novadynamics.com');
   const [address, setAddress] = useState('742 Evergreen Blvd, San Francisco, CA');
 
   // Media

@@ -9,18 +9,18 @@ export const QrBarcodeStudio: React.FC<{ initialMode?: 'qr' | 'barcode' | 'photo
   
   // QR State
   const [payloadType, setPayloadType] = useState<'url' | 'text' | 'wifi' | 'email' | 'phone' | 'vcard'>('url');
-  const [urlInput, setUrlInput] = useState('https://zenithtools.cloud');
-  const [textInput, setTextInput] = useState('Welcome to ZenithTools');
+  const [urlInput, setUrlInput] = useState('https://toolnova.app');
+  const [textInput, setTextInput] = useState('Welcome to ToolNova');
   const [wifiSsid, setWifiSsid] = useState('MyHomeWiFi');
   const [wifiPass, setWifiPass] = useState('SecurePass2026');
   const [wifiType, setWifiType] = useState('WPA');
-  const [emailInput, setEmailInput] = useState('contact@example.com');
+  const [emailInput, setEmailInput] = useState('contact@toolnova.app');
   const [emailSubject, setEmailSubject] = useState('Inquiry');
   const [phoneInput, setPhoneInput] = useState('+1 555 019 2834');
   const [vcardName, setVcardName] = useState('Alex Morgan');
   const [vcardPhone, setVcardPhone] = useState('+1 555 019 2834');
-  const [vcardEmail, setVcardEmail] = useState('alex@example.com');
-  const [vcardCompany, setVcardCompany] = useState('Zenith Systems');
+  const [vcardEmail, setVcardEmail] = useState('alex@toolnova.app');
+  const [vcardCompany, setVcardCompany] = useState('Nova Innovations');
 
   // Styling State
   const [fgColor, setFgColor] = useState('#00f2fe');

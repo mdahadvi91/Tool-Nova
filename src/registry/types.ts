@@ -42,7 +42,7 @@ export interface ToolDefinition {
   clientOnly: boolean;
   requiresBackend: boolean;
   requiresAI: boolean;
-  relatedToolIds: string[];
+  relatedToolIds?: string[];
   seo: {
     title: string;
     h1: string;

@@ -5,7 +5,7 @@ export const SecurityHashStudio: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'hash' | 'base64' | 'password' | 'uuid'>('hash');
 
   // Hash State
-  const [inputText, setInputText] = useState('Zenith Security Engine 2026');
+  const [inputText, setInputText] = useState('ToolNova Security Engine 2026');
   const [sha256Hash, setSha256Hash] = useState('');
   const [sha512Hash, setSha512Hash] = useState('');
   const [sha1Hash, setSha1Hash] = useState('');

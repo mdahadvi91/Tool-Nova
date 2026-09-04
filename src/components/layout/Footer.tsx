@@ -14,13 +14,13 @@ export const Footer: React.FC = () => {
               <Sparkles className="w-4 h-4" />
             </div>
             <span className="font-bold text-base tracking-tight text-white">
-              Zenith<span className="text-cyan-400">Tools</span>
+              Tool<span className="text-cyan-400">Nova</span>
             </span>
           </div>
 
           <p className="text-xs text-slate-400 leading-relaxed">
-            The global multi-tool cloud studio hosting 35 specialized workspaces. Built with a strict
-            privacy-first architecture: calculations, PDF merges, image editing, and hash algorithms execute directly
+            All Your Tools. One Powerful Platform. Built with a strict
+            privacy-first architecture: calculations, PDF operations, media processing, and code utilities execute directly
             within your local web browser.
           </p>
 
@@ -149,7 +149,7 @@ export const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
-        <p>© {new Date().getFullYear()} ZenithTools Cloud Studio. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} ToolNova. All rights reserved.</p>
         <p>Engineered for high performance, accessibility (WCAG 2.1), and zero file retention.</p>
       </div>
     </footer>

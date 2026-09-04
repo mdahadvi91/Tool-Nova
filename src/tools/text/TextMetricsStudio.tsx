@@ -3,7 +3,7 @@ import { Type, Copy, Check, Clock, Mic, Sparkles } from 'lucide-react';
 
 export const TextMetricsStudio: React.FC = () => {
   const [text, setText] = useState(
-    'ZenithTools is a global multi-tool cloud platform designed for modern professionals, engineers, architects, and designers. All utilities execute locally in your web browser with 100% data privacy.'
+    'ToolNova is a global multi-tool cloud platform designed for modern professionals, engineers, architects, and designers. All utilities execute locally in your web browser with 100% data privacy.'
   );
   const [copied, setCopied] = useState(false);
 

@@ -5,16 +5,23 @@ import { WORKSPACES } from '../registry/workspaces';
 import { ToolRenderer } from '../components/tools/ToolRenderer';
 import { DynamicIcon } from '../components/common/DynamicIcon';
 import { AdSlot } from '../ads/components/AdSlot';
+import { DocumentMeta } from '../components/seo/DocumentMeta';
+import { SITE_CONFIG } from '../config/site';
 import { ChevronRight, ShieldCheck, Sparkles, HelpCircle, Lightbulb, CheckCircle2, ArrowRight } from 'lucide-react';
 
 export const ToolPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
 
-  const tool = TOOLS.find((t) => t.id === slug || t.route === `/tool/${slug}`);
+  const tool = TOOLS.find((t) => t.id === slug || t.slug === slug || t.route === `/tool/${slug}`);
 
   if (!tool) {
     return (
       <div className="text-center py-20">
+        <DocumentMeta 
+          title={`Tool Not Found — ${SITE_CONFIG.name}`}
+          description="The requested tool could not be found."
+          noIndex={true}
+        />
         <h2 className="text-2xl font-bold text-white mb-2">Tool Not Found</h2>
         <p className="text-slate-400 text-sm mb-6">The requested studio tool does not exist or has moved.</p>
         <Link to="/" className="px-4 py-2 bg-cyan-600 text-white text-xs font-semibold rounded-xl">
@@ -27,8 +34,31 @@ export const ToolPage: React.FC = () => {
   const workspace = WORKSPACES.find((w) => w.id === tool.workspaceId);
   const relatedTools = TOOLS.filter((t) => t.workspaceId === tool.workspaceId && t.id !== tool.id).slice(0, 3);
 
+  const softwareAppSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: tool.name,
+    url: SITE_CONFIG.getCanonicalUrl(tool.route),
+    description: tool.seo.metaDescription,
+    applicationCategory: tool.category,
+    operatingSystem: 'All',
+    offers: {
+      '@type': 'Offer',
+      price: '0',
+      priceCurrency: 'USD'
+    }
+  };
+
   return (
     <div className="space-y-8">
+      <DocumentMeta
+        title={tool.seo.title}
+        description={tool.seo.metaDescription}
+        canonical={SITE_CONFIG.getCanonicalUrl(tool.route)}
+        keywords={tool.keywords.join(', ')}
+        schema={softwareAppSchema}
+      />
+
       {/* Breadcrumb Navigation */}
       <nav className="flex items-center gap-2 text-xs text-slate-400">
         <Link to="/" className="hover:text-slate-200 transition-colors">Home</Link>

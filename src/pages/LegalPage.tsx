@@ -41,7 +41,7 @@ export const LegalPage: React.FC = () => {
             <section className="space-y-2">
               <h2 className="text-sm font-bold text-white uppercase tracking-wider">1. Privacy by Architecture</h2>
               <p>
-                ZenithTools operates under a strict "Client-Side First" architectural principle. All operations performed
+                ToolNova operates under a strict "Client-Side First" architectural principle. All operations performed
                 by our utilities—including PDF merges, page extractions, image editing, canvas filters, barcode generation,
                 and cryptographic hashing—execute directly within your device's web browser using native Web APIs.
               </p>
@@ -73,7 +73,7 @@ export const LegalPage: React.FC = () => {
             <section className="space-y-2">
               <h2 className="text-sm font-bold text-white uppercase tracking-wider">1. Acceptance of Terms</h2>
               <p>
-                By accessing and using ZenithTools Cloud Platform, you agree to comply with these terms. If you do not agree,
+                By accessing and using ToolNova, you agree to comply with these terms. If you do not agree,
                 please discontinue use of the utilities immediately.
               </p>
             </section>

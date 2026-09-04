@@ -58,7 +58,7 @@ export const ImageEditorStudio: React.FC = () => {
       ctx.fillStyle = '#f8fafc';
       ctx.font = 'bold 36px Outfit, sans-serif';
       ctx.textAlign = 'center';
-      ctx.fillText('Zenith Studio Sample', 400, 260);
+      ctx.fillText('ToolNova Studio Sample', 400, 260);
 
       const dataUrl = sampleCanvas.toDataURL('image/png');
       setImageSrc(dataUrl);
@@ -372,7 +372,7 @@ export const ImageEditorStudio: React.FC = () => {
                   type="text"
                   value={watermarkText}
                   onChange={(e) => setWatermarkText(e.target.value)}
-                  placeholder="e.g. © 2026 Zenith Studio"
+                  placeholder="e.g. © 2026 ToolNova"
                   className="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-100"
                 />
               </div>

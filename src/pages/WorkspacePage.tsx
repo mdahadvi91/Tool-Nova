@@ -3,17 +3,24 @@ import { useParams, Link } from 'react-router-dom';
 import { WORKSPACES } from '../registry/workspaces';
 import { TOOLS } from '../registry/tools';
 import { DynamicIcon } from '../components/common/DynamicIcon';
+import { DocumentMeta } from '../components/seo/DocumentMeta';
+import { SITE_CONFIG } from '../config/site';
 import { ArrowRight, ChevronRight, CheckCircle, HelpCircle, Sparkles, BookOpen, Layers } from 'lucide-react';
 import { AdSlot } from '../ads/components/AdSlot';
 
 export const WorkspacePage: React.FC = () => {
   const { id } = useParams<{ id: string }>();
 
-  const workspace = WORKSPACES.find((w) => w.id === id);
+  const workspace = WORKSPACES.find((w) => w.id === id || w.slug === id);
 
   if (!workspace) {
     return (
       <div className="text-center py-20">
+        <DocumentMeta
+          title={`Workspace Not Found — ${SITE_CONFIG.name}`}
+          description="The requested workspace could not be found."
+          noIndex={true}
+        />
         <h2 className="text-2xl font-bold text-white mb-2">Workspace Not Found</h2>
         <p className="text-slate-400 text-sm mb-6">The requested workspace does not exist or has moved.</p>
         <Link to="/" className="px-4 py-2 bg-cyan-600 text-white text-xs font-semibold rounded-xl">
@@ -26,8 +33,29 @@ export const WorkspacePage: React.FC = () => {
   // Filter tools belonging to this workspace
   const workspaceTools = TOOLS.filter((t) => t.workspaceId === workspace.id);
 
+  const collectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: workspace.name,
+    description: workspace.seo.metaDescription,
+    url: SITE_CONFIG.getCanonicalUrl(`/workspace/${workspace.id}`),
+    isPartOf: {
+      '@type': 'WebSite',
+      name: SITE_CONFIG.name,
+      url: SITE_CONFIG.url
+    }
+  };
+
   return (
     <div className="space-y-10">
+      <DocumentMeta
+        title={workspace.seo.title}
+        description={workspace.seo.metaDescription}
+        canonical={SITE_CONFIG.getCanonicalUrl(`/workspace/${workspace.id}`)}
+        keywords={workspace.seo.keywords.join(', ')}
+        schema={collectionSchema}
+      />
+
       {/* Breadcrumb Navigation */}
       <nav className="flex items-center gap-2 text-xs text-slate-400">
         <Link to="/" className="hover:text-slate-200 transition-colors">Home</Link>

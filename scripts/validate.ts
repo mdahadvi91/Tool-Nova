@@ -3,7 +3,7 @@ import { TOOLS } from '../src/registry/tools';
 import { AD_SLOTS } from '../src/ads/config/adConfig';
 import { validatePlacementPolicy } from '../src/ads/policies/placementPolicy';
 
-console.log('--- ZenithTools Production Quality Audit ---');
+console.log('--- ToolNova Production Quality Audit ---');
 
 let hasErrors = false;
 

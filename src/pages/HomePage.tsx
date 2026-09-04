@@ -5,13 +5,35 @@ import { WORKSPACES } from '../registry/workspaces';
 import { TOOLS } from '../registry/tools';
 import { DynamicIcon } from '../components/common/DynamicIcon';
 import { AdSlot } from '../ads/components/AdSlot';
+import { DocumentMeta } from '../components/seo/DocumentMeta';
+import { SITE_CONFIG } from '../config/site';
 
 export const HomePage: React.FC = () => {
   const popularTools = TOOLS.filter((t) => t.isPopular);
   const featuredTools = TOOLS.filter((t) => t.isFeatured);
 
+  const websiteSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE_CONFIG.name,
+    url: SITE_CONFIG.url,
+    description: SITE_CONFIG.description,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE_CONFIG.url}/search?q={search_term_string}`,
+      'query-input': 'required name=search_term_string'
+    }
+  };
+
   return (
     <div className="space-y-12">
+      <DocumentMeta
+        title={`${SITE_CONFIG.name} — ${SITE_CONFIG.tagline}`}
+        description={SITE_CONFIG.description}
+        canonical={SITE_CONFIG.getCanonicalUrl('/')}
+        schema={websiteSchema}
+      />
+
       {/* Hero Section */}
       <section className="relative overflow-hidden rounded-3xl bg-gradient-to-b from-slate-900/90 via-slate-950/70 to-slate-950/90 border border-slate-800/80 p-8 sm:p-12 shadow-2xl backdrop-blur-2xl">
         <div className="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 rounded-full bg-cyan-500/10 blur-3xl pointer-events-none" />
@@ -172,7 +194,7 @@ export const HomePage: React.FC = () => {
             <HelpCircle className="w-5 h-5 text-cyan-400" />
             <span>Frequently Asked Questions</span>
           </h2>
-          <p className="text-xs text-slate-400 mt-1">Everything you need to know about ZenithTools privacy and architecture</p>
+          <p className="text-xs text-slate-400 mt-1">Everything you need to know about ToolNova privacy and architecture</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">

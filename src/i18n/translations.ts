@@ -2,15 +2,15 @@ import { SupportedLocale, TranslationDictionary } from '../registry/types';
 
 export const TRANSLATIONS: Record<SupportedLocale, TranslationDictionary> = {
   en: {
-    brandName: 'ZenithTools',
-    tagline: 'The Global Multi-Tool Cloud Studio',
+    brandName: 'ToolNova',
+    tagline: 'All Your Tools. One Powerful Platform.',
     searchPlaceholder: 'Search 35 workspaces, utilities, and tools (e.g. PDF, QR, EMI, JSON)...',
     workspaces: 'Workspaces',
     popularTools: 'Popular Utilities',
     featuredTools: 'Featured Studios',
     allTools: 'All Tools',
     howItWorks: 'How It Works',
-    usefulContent: 'Why ZenithTools?',
+    usefulContent: 'Why ToolNova?',
     faq: 'Frequently Asked Questions',
     privacyBadge: '100% Client-Side Privacy — Zero File Retention',
     exploreWorkspace: 'Explore Workspace',
@@ -20,8 +20,8 @@ export const TRANSLATIONS: Record<SupportedLocale, TranslationDictionary> = {
     footerRights: 'All rights reserved. Designed for privacy, performance, and accessibility.'
   },
   bn: {
-    brandName: 'জেনিত-টুলস',
-    tagline: 'গ্লোবাল মাল্টি-টুল ক্লাউড স্টুডিও',
+    brandName: 'টুলনোভা',
+    tagline: 'অল ইওর টুলস। ওয়ান পাওয়ারফুল প্ল্যাটফর্ম।',
     searchPlaceholder: '৩৫টি ওয়ার্কস্পেস এবং টুলস খুঁজুন (যেমন PDF, QR, ক্যালকুলেটর)...',
     workspaces: 'ওয়ার্কস্পেসসমূহ',
     popularTools: 'জনপ্রিয় টুলস',
@@ -92,15 +92,15 @@ export const TRANSLATIONS: Record<SupportedLocale, TranslationDictionary> = {
     footerRights: 'جملہ حقوق محفوظ ہیں۔'
   },
   es: {
-    brandName: 'ZenithTools',
-    tagline: 'El Estudio Global Multi-Herramientas en la Nube',
+    brandName: 'ToolNova',
+    tagline: 'Todas tus herramientas. Una plataforma potente.',
     searchPlaceholder: 'Buscar en 35 espacios de trabajo y herramientas (PDF, QR, EMI, JSON)...',
     workspaces: 'Espacios de Trabajo',
     popularTools: 'Herramientas Populares',
     featuredTools: 'Estudios Destacados',
     allTools: 'Todas las Herramientas',
     howItWorks: 'Cómo Funciona',
-    usefulContent: '¿Por qué ZenithTools?',
+    usefulContent: '¿Por qué ToolNova?',
     faq: 'Preguntas Frecuentes',
     privacyBadge: '100% Privacidad en el Navegador — Sin retención de archivos',
     exploreWorkspace: 'Explorar Espacio',

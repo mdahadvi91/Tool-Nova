@@ -86,14 +86,14 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-bold text-base tracking-tight text-white group-hover:text-cyan-400 transition-colors">
-                  Zenith<span className="text-cyan-400">Tools</span>
+                  Tool<span className="text-cyan-400">Nova</span>
                 </span>
                 <span className="text-[10px] font-mono px-1.5 py-0.2 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/20 font-semibold">
-                  35 STU
+                  PRO
                 </span>
               </div>
               <span className="text-[10px] text-slate-400 hidden sm:inline">
-                Global Multi-Tool Cloud Studio
+                All Your Tools. One Powerful Platform.
               </span>
             </div>
           </Link>
